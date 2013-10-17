@@ -3,6 +3,11 @@
 
 <head>
 
+<<<<<<< HEAD
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+=======
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>{{ page.title }}</title>
@@ -12,6 +17,7 @@
 
 </head>
 
+>>>>>>> 0943923e4f3be4646459c27d68b220ba363460ce
     <body>
 
         <div class="container">
