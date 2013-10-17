@@ -1,17 +1,29 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Columbus Javascript User Group
 ---
 
 
 <div id="home">
 
-  <h1>Events</h1>
-  <ul class='events'>
-    {% for event in site.categories.events %}
-      <li><span>{{ event.date | date_to_string }}</span> &raquo; <a href="{{ event.url }}">{{ event.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% assign event = site.categories.events.first %}
+  <div 
+    id='latest-event'
+    class='jumbotron'>
+    <div class='container'>
+      <h1>{{ event.title }}</h1>
+      <p class='lead'>{{ event.tagline }}</p>
+      <p>{{ event.author }}</p>
+
+      {{ event.content }}
+
+      <p>
+        <a 
+          class="btn btn-primary btn-lg"
+          href="{{ event.url }}">Details</a>
+      </p>
+    </div>
+  </div>
 
   <h1>Blog Posts</h1>
   <ul class="posts">
