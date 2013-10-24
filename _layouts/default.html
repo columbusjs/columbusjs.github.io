@@ -15,47 +15,31 @@
     {% include navbar.html %}
   </header>
 
-  <h1 class="main-title"> {{ page.title }}</h1>
-        <div class="container">
-          <div class="row">
-            <aside class="col-md-4">
-              <dl>
-                <dt>When</dt>
-                <dd>Wednesday, November 20</dd>
-                <dt>Where</dt>
-                <dd>
-                  The Forge</br>
-                  580 N. Fourth Street</br>
-                  Columbus, Ohio 43215</br>
-                </dd>
-              </dl>
-                  <iframe height="200" frameborder="0" scrolling="no" marginheight="15" marginwidth="0" src="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-            </aside>
+  <h1 class="main-title"> {{ page.title }} </h1>
+  <div class="container">
+    <div class="row">
+      <aside class="col-md-4">
+        <dl>
+          <dt>When</dt>
+          <dd>Wednesday, November 20</dd>
+          <dt>Where</dt>
+          <dd>
+            The Forge</br>
+            580 N. Fourth Street</br>
+            Columbus, Ohio 43215</br>
+          </dd>
+        </dl>
+            <iframe height="200" frameborder="0" scrolling="no" marginheight="15" marginwidth="0" src="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+      </aside>
 
-            <div class="col-md-8">
-                {{ content }}
-            </div>
-
-          </div>
-        </div> <!-- /container -->
-
-        <footer>
-        <div class="container">
-          <div class="contact">
-            <p>
-              Your Name<br />
-              What You Are<br />
-              your@email.com
-            </p>
-          </div>
-          <div class="contact">
-            <p>
-              <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-              <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-            </p>
-          </div>
+      <div class="col-md-8">
+          {{ content }}
       </div>
-        </footer>
+
+    </div>
+  </div> <!-- /container -->
+
+  {% include footer.html %}
 
     </body>
 </html>
