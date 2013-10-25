@@ -1,0 +1,19 @@
+---
+layout: default
+name: Speakers
+---
+
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+{{ content }}
+</div>
+
+{% assign events = site.categories.events %}
+
+{% for event in events %}
+	{% if event.speaker == page.name %}
+		<a href="{{ event.url }}">{{ event.title }}</a>
+	{% endif %}
+{% endfor %}

@@ -1,73 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>{{ page.title }}</title>
-<meta name="viewport" content="width=device-width">
-
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-inverse" role="navigation">
-      <a class="navbar-brand" href="#">
-        CbusJS
-      </a>
-      <ul class="nav navbar-nav">
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Calendar of Events</a></li>
+  {% include header.html %}
+
+  {{ content }}
+
+  <div class='container'>
+    <h1>Blog Posts</h1>
+
+    <section
+      id='blog-posts'
+      class='col-md-8'>
+      <ul class='posts'>
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
       </ul>
-    </nav>
-  </header>
+    </section>
+    <aside
+      id='cbusjs-location'
+      class="col-md-4">
+      <dl>
+        <dt>When</dt>
+        <dd>Wednesday, November 20</dd>
+        <dt>Where</dt>
+        <dd>
+          The Forge</br>
+          580 N. Fourth Street</br>
+          Columbus, Ohio 43215</br>
+        </dd>
+      </dl>
+      <iframe
+        height="200"
+        frameborder="0"
+        scrolling="no"
+        marginheight="15"
+        marginwidth="0"
+        src="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;output=embed">
+      </iframe>
+      <br/>
+      <small>
+        <a
+          href="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;source=embed"
+          style="color:#0000FF;text-align:left">View Larger Map
+        </a>
+      </small>
+    </aside>
+  </div>
 
+  {% include footer.html %}
 
-  <h1 class="main-title"> {{ page.title }}</h1>
-        <div class="container">
-          <div class="row">
-            <aside class="col-md-4">
-              <dl>
-                <dt>When</dt>
-                <dd>Wednesday, November 20</dd>
-                <dt>Where</dt>
-                <dd>
-                  The Forge</br>
-                  580 N. Fourth Street</br>
-                  Columbus, Ohio 43215</br>
-                </dd>
-              </dl>
-                  <iframe height="200" frameborder="0" scrolling="no" marginheight="15" marginwidth="0" src="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-            </aside>
-
-            <div class="col-md-8">
-                {{ content }}
-            </div>
-
-          </div>
-        </div> <!-- /container -->
-
-        <footer>
-        <div class="container">
-          <div class="contact">
-            <p>
-              Your Name<br />
-              What You Are<br />
-              your@email.com
-            </p>
-          </div>
-          <div class="contact">
-            <p>
-              <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-              <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-            </p>
-          </div>
-      </div>
-        </footer>
-
-    </body>
+</body>
 </html>

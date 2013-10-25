@@ -1,5 +1,6 @@
 ---
 layout: default
+name: Events
 ---
 
 <h2>{{ page.title }}</h2>
@@ -8,3 +9,12 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
+
+
+{% assign speakers = site.categories.speakers %}
+
+{% for speaker in speakers %}
+	{% if speaker.name == page.speaker %}
+		<a href="{{ speaker.url }}">{{ speaker.name }}</a>
+	{% endif %}
+{% endfor %}
