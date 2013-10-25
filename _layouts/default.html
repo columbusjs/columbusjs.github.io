@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -11,35 +11,54 @@
 </head>
 
 <body>
-  <header>
-    {% include navbar.html %}
-  </header>
+  {% include header.html %}
 
-  <h1 class="main-title"> {{ page.title }} </h1>
-  <div class="container">
-    <div class="row">
-      <aside class="col-md-4">
-        <dl>
-          <dt>When</dt>
-          <dd>Wednesday, November 20</dd>
-          <dt>Where</dt>
-          <dd>
-            The Forge</br>
-            580 N. Fourth Street</br>
-            Columbus, Ohio 43215</br>
-          </dd>
-        </dl>
-            <iframe height="200" frameborder="0" scrolling="no" marginheight="15" marginwidth="0" src="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-      </aside>
+  {{ content }}
 
-      <div class="col-md-8">
-          {{ content }}
-      </div>
+  <div class='container'>
+    <h1>Blog Posts</h1>
 
-    </div>
-  </div> <!-- /container -->
+    <section
+      id='blog-posts'
+      class='col-md-8'>
+      <ul class='posts'>
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    <aside
+      id='cbusjs-location'
+      class="col-md-4">
+      <dl>
+        <dt>When</dt>
+        <dd>Wednesday, November 20</dd>
+        <dt>Where</dt>
+        <dd>
+          The Forge</br>
+          580 N. Fourth Street</br>
+          Columbus, Ohio 43215</br>
+        </dd>
+      </dl>
+      <iframe
+        height="200"
+        frameborder="0"
+        scrolling="no"
+        marginheight="15"
+        marginwidth="0"
+        src="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;output=embed">
+      </iframe>
+      <br/>
+      <small>
+        <a
+          href="https://maps.google.com/maps?q=maps+580+N+Fourth+Street&amp;ie=UTF8&amp;hq=&amp;hnear=580+N+4th+St,+Columbus,+Ohio+43215&amp;gl=us&amp;t=m&amp;z=14&amp;ll=39.974289,-82.99806&amp;source=embed"
+          style="color:#0000FF;text-align:left">View Larger Map
+        </a>
+      </small>
+    </aside>
+  </div>
 
   {% include footer.html %}
 
-    </body>
+</body>
 </html>

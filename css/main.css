@@ -1,7 +1,4 @@
 /*
- * Bootstrap CSS files ---------------------------------
- */
-/*
  * Bootstrap v3.0.0
  *
  * Copyright 2013 Twitter, Inc
@@ -7482,4 +7479,14 @@ aside {
 .main-title {
   text-align: center;
   margin-bottom: 20px;
+}
+
+/* line 17, sass/_foundations.scss */
+.main-nav {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 0;
 }
