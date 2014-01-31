@@ -28,13 +28,13 @@ title: Columbus JavaScript User Group
 
 <ul id="calendarStuff"></ul>
 
-<script src="https://apis.google.com/js/client.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/client.js?onload=onLoadCallback"></script>
 
 <script>
 
   console.log('javascript works!');
 
-  window.onload(function() {
+  var onLoadCallback(function() {
 
     console.log('callback loaded');
 
