@@ -30,17 +30,21 @@ title: Columbus JavaScript User Group
 
 <script>
 
-  gapi.client.setApiKey('AIzaSyDt-Cr4OxzpnxhkIF0fyjAWqVirvbBNZt0');
-  gapi.client.load('calendar', 'v3');
+  var OnLoadCallback = function() {
 
-  var request = gapi.client.calendar.events.list( { calendarId: 'cbusjs@gmail.com' } );
-  request.execute(function(resp) {
-    resp.items.forEach(function(item) {
-      console.log('Summary:     ' + item.summary);
-      console.log('Description: ' + item.description);
-      console.log('Location:    ' + item.location);
-      console.log('Time:        ' + item.start.dateTime);
+    gapi.client.setApiKey('AIzaSyDt-Cr4OxzpnxhkIF0fyjAWqVirvbBNZt0');
+    gapi.client.load('calendar', 'v3');
+
+    var request = gapi.client.calendar.events.list( { calendarId: 'cbusjs@gmail.com' } );
+    request.execute(function(resp) {
+      resp.items.forEach(function(item) {
+        console.log('Summary:     ' + item.summary);
+        console.log('Description: ' + item.description);
+        console.log('Location:    ' + item.location);
+        console.log('Time:        ' + item.start.dateTime);
+      });
     });
-  });
+
+  };
 
 </script>
