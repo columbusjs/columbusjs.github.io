@@ -28,32 +28,38 @@ title: Columbus JavaScript User Group
 
 <ul id="calendarStuff"></ul>
 
+<script src="http://stevenlevithan.com/assets/misc/date.format.js"></script>
+
 <script>
 
-  console.log('javascript works!');
-
   var onLoadCallback = function() {
-
-    console.log('callback loaded');
 
     var ul = document.getElementById('calendarStuff');
 
     gapi.client.setApiKey('AIzaSyDt-Cr4OxzpnxhkIF0fyjAWqVirvbBNZt0');
     gapi.client.load('calendar', 'v3', function() {
 
-      console.log('client loaded');
+      var now = dateFormat(Date.now(), 'isoUtcDateTime');
 
       var request = gapi.client.calendar.events.list({ 
         calendarId: 'cbusjs@gmail.com',
-        showDeleted: false
+        showDeleted: false,
+        timeMin: now
       });
       request.execute(function(resp) {
 
-        console.log('request executed');
+        console.log(resp);
 
-        resp.items.forEach(function(item) {
+        resp.items.filter(function(item) {
+          if (item.start === undefined) return false;
+          return item.start.dateTime >= now;
+        }).sort(function(a, b) {
+          if (a.start.dateTime > b.start.dateTime) return 1; 
+          if (a.start.dateTime < b.start.dateTime) return -11;
+          return 0;
+        }).forEach(function(item) {
           var li = document.createElement('li');
-          li.innerText = item.summary + ', ' + item.location + ' @' + item.start.dateTime;
+          li.innerText = item.summary + ', ' + item.location + ' @ ' + (item.start ? item.start.dateTime : undefined);
           ul.appendChild(li);
         });
       });
@@ -62,7 +68,7 @@ title: Columbus JavaScript User Group
 
   };
 
-
+  // this magic code loads the google api
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://apis.google.com/js/client.js?onload=onLoadCallback';
