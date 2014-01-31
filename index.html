@@ -50,6 +50,7 @@ title: Columbus JavaScript User Group
 
         resp.items.forEach(function(item) {
           var li = document.createElement('li');
+          var start = item.start ? item.start : {};
           li.innerText = item.summary + ', ' + item.location + ' @' + item.start.dateTime;
           ul.appendChild(li);
         });
