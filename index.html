@@ -32,15 +32,24 @@ title: Columbus JavaScript User Group
 
 <script>
 
+  console.log('javascript works!');
+
   var OnLoadCallback = function() {
+
+    console.log('callback loaded');
 
     var ul = document.getElementById('calendarStuff');
 
     gapi.client.setApiKey('AIzaSyDt-Cr4OxzpnxhkIF0fyjAWqVirvbBNZt0');
     gapi.client.load('calendar', 'v3', function() {
 
+      console.log('client loaded');
+
       var request = gapi.client.calendar.events.list( { calendarId: 'cbusjs@gmail.com' } );
       request.execute(function(resp) {
+
+        console.log('request executed');
+
         resp.items.forEach(function(item) {
           var li = document.createElement('li');
           li.innerText = item.summary + ', ' + item.location + ' @' + item.start.dateTime;
