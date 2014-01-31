@@ -43,15 +43,17 @@ title: Columbus JavaScript User Group
 
       console.log('client loaded');
 
-      var request = gapi.client.calendar.events.list( { calendarId: 'cbusjs@gmail.com' } );
+      var request = gapi.client.calendar.events.list({ 
+        calendarId: 'cbusjs@gmail.com',
+        showDeleted: false
+      });
       request.execute(function(resp) {
 
         console.log('request executed');
 
         resp.items.forEach(function(item) {
           var li = document.createElement('li');
-          var start = item.start ? item.start : {};
-          li.innerText = item.summary + ', ' + item.location + ' @' + start.dateTime;
+          li.innerText = item.summary + ', ' + item.location + ' @' + item.start.dateTime;
           ul.appendChild(li);
         });
       });
