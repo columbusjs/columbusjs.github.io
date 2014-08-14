@@ -1,0 +1,31 @@
+---
+layout: default
+title: Talks
+permalink: /talks/
+---
+<div class="page">
+
+  <h1>Talks</h1>
+
+  <div class="post-list">
+
+    {% for post in site.posts %}
+      
+      <p class="post-category">
+        {% for category in post.categories%}
+          {{ category }}<span class="bullet">&nbsp;&bullet;</span>
+        {% endfor %}
+        <span class="bullet">&nbsp;&bullet;</span>
+        {{ post.date | date: "%B %d, %Y" %}}
+
+      </p>
+      
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+    {% endfor %}
+  
+  </div>
+
+</div>
