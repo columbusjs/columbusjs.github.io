@@ -4,8 +4,17 @@ layout: default
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="post">
-    
+  <div class="post">    
+
+    <h2 class="speaker-date">
+
+        {{ post.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
+        {% for category in post.categories%}
+          {{ category }}<span class="separator">,&nbsp;</span>
+        {% endfor %}
+
+    </h2>
+
     <h1><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h1>
     
     <div class="content">

@@ -29,9 +29,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #444;
-  text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   line-height: 1.2;
+}
+
+h1 {
+  font-size: 28px;
 }
 
 .wrapper h1,
@@ -95,7 +98,7 @@ svg {
   margin: 0 10px 15px;
 }
 
-.bullet:last-child {
+.separator:last-child {
   display: none;
 }
 
@@ -104,6 +107,7 @@ h1.site-title {
   letter-spacing: 1px;
   font-weight: 600;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .sidebar .site-title a {
@@ -118,6 +122,7 @@ h1.site-title {
 h2.description {
   font-size: 20px;
   color: #fff;
+  text-align: center;
 }
 
 .post-list h2 {
@@ -129,6 +134,18 @@ h2.description {
 .post-list p {
   margin-bottom: 0;
   color: #777;
+}
+
+.speaker-date {
+  background: #099;
+  padding: 5px 10px;
+  color: white;
+  text-align: center;
+}
+
+h2.speaker-date {
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 
 .page-content img {

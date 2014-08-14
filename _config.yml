@@ -10,4 +10,4 @@ paginate: 5
 
 # Build settings
 markdown: kramdown
-permalink: /:title.html
+permalink: /:month-:day-:year/:title.html

@@ -1,23 +1,23 @@
 ---
 layout: default
 title: Talks
-permalink: /talks/
+permalink: /meetups/
 ---
 <div class="page">
 
-  <h1>Talks</h1>
+  <h1>Meetups</h1>
 
   <div class="post-list">
 
     {% for post in site.posts %}
       
       <p class="post-category">
-        {% for category in post.categories%}
-          {{ category }}<span class="bullet">&nbsp;&bullet;</span>
-        {% endfor %}
-        <span class="bullet">&nbsp;&bullet;</span>
-        {{ post.date | date: "%B %d, %Y" %}}
 
+        {{ post.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
+        {% for category in post.categories%}
+          {{ category }}<span class="separator">,&nbsp;</span>
+        {% endfor %}
+      
       </p>
       
       <h2>
