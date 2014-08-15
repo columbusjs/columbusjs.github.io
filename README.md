@@ -10,7 +10,7 @@ $ jekyll build
 Run a local server:
 
 ```sh
-$  jekyll serve -w --config _dev_config.yml
+$ jekyll serve -w --config _dev_config.yml
 ```
 
 To publish site, do a build, then rake:
@@ -19,3 +19,9 @@ To publish site, do a build, then rake:
 $ jekyll build
 $ rake blog:publish
  ```
+
+References:
+
+[http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.htm](http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.htm)
+
+[http://www.jaredwolff.com/blog/jekyll-local-preview/](http://www.jaredwolff.com/blog/jekyll-local-preview/)

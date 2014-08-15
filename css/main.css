@@ -23,7 +23,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  background: #aaa;
+  background: #87836D;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 28px;
+}
+
+.location h3.next {
+  color: #694941;
 }
 
 .wrapper h1,
@@ -87,7 +91,7 @@ a:hover {
   margin: 0 -15px;
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
 }
 
 svg {
@@ -112,6 +116,14 @@ h1.site-title {
 
 .sidebar .site-title a {
   color: #f4f4f4;
+}
+
+.sidebar .site-title a:hover {
+  color: #C9C7BC;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .page h1 {
@@ -165,8 +177,9 @@ h2.speaker-date {
   width: 40%;
   height: 100%;
   float: left;
-  padding: 15px;
+  padding: 40px 15px;
   background: #099;
+  border: 8px solid #6FAEA5;
   background-image: -webkit-gradient(
     linear,
     right top,
@@ -182,15 +195,32 @@ h2.speaker-date {
 }
 
 .location {
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
-  background: #f4f4f4;
-  width: 320px;
-  margin: 0 auto;
+  background: #C9C7BC;
+  width: 290px;
+  margin: 0 auto 30px;
+}
+
+.location h3,
+.location p {
+  color: #2A4D4D;
+  margin-bottom: 15px;
+}
+
+.location h3.next {
+  color: white;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+h3.contact {
+  text-align: center;
 }
 
 .location p {
-  color: #247575;
+  color: #506363;
+  margin-left: 40px;
 }
 
 .page-content {
@@ -222,20 +252,23 @@ h2.speaker-date {
 .left-menu ul li {
   display: inline-block;
   padding: 0;
-  margin: 0 10px 10px;
+  margin: 20px 5px;
   font-size: 18px;
   text-transform: uppercase;
 }
 
-button.quantity {
-  margin-left: 10px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  color: #DCD091;
-  background: #444;
-  border: none;
-  cursor: default;
+.left-menu ul li a {
+  padding: 8px;
+  background: #2A4D4D;
+}
+
+.left-menu ul li a:hover {
+  background: #1E3C3C;
+  color: #C9C7BC;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 button {
@@ -258,10 +291,10 @@ button:focus {
 }
 
 .footer {
-  padding: 20px 0 6px;
+  padding: 20px;
   color: white;
   text-align: center;
-  background: #aaa;
+  background: #87836D;
 }
 
 .footer p {
@@ -271,6 +304,38 @@ button:focus {
 
 .footer a {
   color: white;
+}
+
+.footer p {
+  width: 33%;
+  float: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /* media queries */
@@ -338,14 +403,6 @@ button:focus {
 
   .categories {
     display: none;
-  }
-
-}
-
-@media screen and (max-width: 350px) {
-
-  .sidebar {
-    padding: 20px 0;
   }
 
 }
