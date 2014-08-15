@@ -28,7 +28,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #444;
+  color: #707070;
   margin-bottom: 20px;
   line-height: 1.2;
 }
@@ -37,12 +37,19 @@ h1 {
   font-size: 28px;
 }
 
+h1.category {
+  text-transform: capitalize;
+}
+
+.categories h2 {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
 .location h3.next {
   color: #694941;
 }
 
-.wrapper h1,
-.wrapper h2,
 p.post-category {
   text-transform: capitalize;
 }
@@ -107,7 +114,7 @@ svg {
 }
 
 h1.site-title {
-  font-size: 84px;
+  font-size: 77px;
   letter-spacing: 1px;
   font-weight: 600;
   margin-bottom: 0;
@@ -149,7 +156,7 @@ h2.description {
 }
 
 .speaker-date {
-  background: #099;
+  background: #B4B09D;
   padding: 5px 10px;
   color: white;
   text-align: center;
@@ -158,6 +165,7 @@ h2.description {
 h2.speaker-date {
   font-size: 22px;
   margin-bottom: 12px;
+  text-transform: capitalize;
 }
 
 .page-content img {
@@ -179,7 +187,7 @@ h2.speaker-date {
   float: left;
   padding: 40px 15px;
   background: #099;
-  border: 8px solid #6FAEA5;
+  border-right: 10px solid #64A7A7;
   background-image: -webkit-gradient(
     linear,
     right top,
@@ -291,7 +299,7 @@ button:focus {
 }
 
 .footer {
-  padding: 20px;
+  padding: 20px 30px 40px;
   color: white;
   text-align: center;
   background: #87836D;
@@ -384,7 +392,7 @@ button:focus {
     float: none;
     height: auto;
     position: static;
-    padding: 20px 15px;
+    padding: 20px 15px 5px;
   }
 
   .sidebar ul,
@@ -403,6 +411,12 @@ button:focus {
 
   .categories {
     display: none;
+  }
+
+  .social-icons {
+    margin: 0 -15px;
+    position: static;
+    width: auto;
   }
 
 }

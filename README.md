@@ -2,6 +2,8 @@
 
 This site is built in Jekyll and hosted on GitHub. Because it has a custom plugin, it must be rendered locally before being pushed to gh-pages. There is a rake task in place to easily do this.
 
+From the root of your project folder:
+
 Build the site:
 
 ```sh
