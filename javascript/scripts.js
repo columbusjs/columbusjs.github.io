@@ -60,7 +60,7 @@ window.onload = function() {
   // If our viewport is greater than our mobile break point, then do stuff:
 
   if (width > 767) {
-    var footerHeight = 60;
+    var footerHeight = 64;
     var content = document.getElementById('content');
     var contentHeight = content.offsetHeight;
 
