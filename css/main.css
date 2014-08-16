@@ -84,11 +84,6 @@ a:visited {
   color: #f4f4f4;
 }
 
-.sidebar table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 a:hover {
   text-decoration: none;
 }
@@ -107,10 +102,6 @@ a:hover {
   width: 24px;
   height: 24px;
   margin: 0 10px 15px;
-}
-
-.separator:last-child {
-  display: none;
 }
 
 h1.site-title {
@@ -166,6 +157,10 @@ h2.speaker-date {
   margin-bottom: 12px;
 }
 
+.separator:last-child {
+  display: none;
+}
+
 .page-content img {
   display: block;
   margin: 30px auto;
@@ -200,8 +195,13 @@ h2.speaker-date {
   background-image: linear-gradient(to bottom, #247575 16%, #009999 88%);
 }
 
+.sidebar table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .location {
-  padding: 15px 30px;
+  padding: 15px 30px 50px;
   background: #C9C7BC;
   width: 290px;
   margin: 0 auto 30px;
