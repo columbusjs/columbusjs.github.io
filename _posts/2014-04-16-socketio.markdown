@@ -1,0 +1,8 @@
+---
+date: 2014-04-16 18:30:00
+layout: post
+title: "JavaScript for Fun and Sockets"
+categories:
+- Jared Faris
+---
+Jared Faris with be presenting "JavaScript for Fun and Sockets: Using Socket.IO or SignalR to Harness the Power of WebSockets". The title might be long, but the talk will be good.

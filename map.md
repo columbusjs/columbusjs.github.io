@@ -5,7 +5,7 @@ permalink: /map/
 ---
 <div class="page">
 
-  <h1>Located in The Smith Bros' Hardware Co. building</h1>
+  <h1>Located in The Smith Bros' Hardware Building</h1>
 
   <div class="google-maps">
 

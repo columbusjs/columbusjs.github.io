@@ -28,7 +28,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #707070;
+  color: #5A5746;
   margin-bottom: 20px;
   line-height: 1.2;
 }
@@ -101,7 +101,7 @@ a:hover {
   bottom: 10px;
 }
 
-svg {
+.sidebar svg {
   fill: #eee;
   display: inline-block;
   width: 24px;
@@ -146,13 +146,12 @@ h2.description {
 
 .post-list h2 {
   text-align: left;
-  margin-bottom: 10px;
   line-height: 1.2;
 }
 
 .post-list p {
   margin-bottom: 0;
-  color: #777;
+  color: #5A5746;
 }
 
 .speaker-date {
@@ -165,13 +164,12 @@ h2.description {
 h2.speaker-date {
   font-size: 22px;
   margin-bottom: 12px;
-  text-transform: capitalize;
 }
 
 .page-content img {
   display: block;
-  margin: 10px auto 30px;
-  max-width: 100%;
+  margin: 30px auto;
+  width: 100%;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -203,8 +201,7 @@ h2.speaker-date {
 }
 
 .location {
-  padding: 15px;
-  border-radius: 5px;
+  padding: 15px 30px;
   background: #C9C7BC;
   width: 290px;
   margin: 0 auto 30px;
@@ -212,8 +209,13 @@ h2.speaker-date {
 
 .location h3,
 .location p {
+  color: #506363;
+}
+
+.location h3 {
+  margin-bottom: 0;
   color: #2A4D4D;
-  margin-bottom: 15px;
+  clear: both;
 }
 
 .location h3.next {
@@ -222,13 +224,26 @@ h2.speaker-date {
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
-h3.contact {
-  text-align: center;
+.address {
+  width: 180px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-.location p {
-  color: #506363;
-  margin-left: 40px;
+.location svg {
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+.location a {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
 }
 
 .page-content {
@@ -260,7 +275,7 @@ h3.contact {
 .left-menu ul li {
   display: inline-block;
   padding: 0;
-  margin: 20px 5px;
+  margin: 20px 3px;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -282,10 +297,11 @@ h3.contact {
 button {
   width: 75px;
   height: 25px;
+  margin-bottom: 20px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 12px;
-  color: #B8A433;
+  color: #87836D;
   background: #FFF;
   cursor: pointer;
 }
@@ -315,7 +331,7 @@ button:focus {
 }
 
 .footer p {
-  width: 33%;
+  width: 50%;
   float: left;
 }
 
@@ -325,10 +341,6 @@ button:focus {
 
 .left {
   text-align: left;
-}
-
-.center {
-  text-align: center;
 }
 
 .google-maps {
@@ -417,6 +429,10 @@ button:focus {
     margin: 0 -15px;
     position: static;
     width: auto;
+  }
+
+  .footer {
+    padding: 20px 15px 40px;
   }
 
 }

@@ -8,7 +8,7 @@ layout: default
       {{ page.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
       
       {% for category in page.categories%}
-        {{ category }}<span class="separator">,&nbsp;</span>
+        <span class="speaker-name">{{ category }}</span><span class="separator">,&nbsp;</span>
       {% endfor %}
 
     </h2>

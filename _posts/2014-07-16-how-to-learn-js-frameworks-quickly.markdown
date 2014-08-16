@@ -1,7 +1,7 @@
 ---
-date: 2014-07-16 19:00:00
+date: 2014-07-16 18:30:00
 layout: post
-title: "How to Learn JavaScript Frameworks Quickly | AngularJS, Backbone, Ember"
+title: "How to Learn JavaScript Frameworks Quickly - AngularJS, Backbone, Ember"
 categories:
 - Craig Mc Keachie
 - Jan Milosh
@@ -17,8 +17,8 @@ Topics are:
 
 Jan Milosh: Prerender.io
 
-Prerender slides can be found at [janmilosh.github.io/prerender-talk](http://janmilosh.github.io/prerender-talk)
+Prerender slides can be found at [janmilosh.github.io/prerender-talk](http://janmilosh.github.io/prerender-talk).
 
-Craig McKeachie: How to Learn JavaScript Frameworks Quickly \| AngularJS, Backbone, Ember
+Craig McKeachie: How to Learn JavaScript Frameworks Quickly - AngularJS, Backbone, Ember
 
-Many copies of Craig's new book *JavaScript Framework Guide \| AngularJS, Backbone, Ember: Confidently Choosing and Quickly Learning* will be given away at the talk so be sure to attend this one.
+Many copies of Craig's new book *JavaScript Framework Guide - AngularJS, Backbone, Ember: Confidently Choosing and Quickly Learning* will be given away at the talk so be sure to attend this one.

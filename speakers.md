@@ -11,7 +11,7 @@ permalink: /speakers/
     
     <h2>
       <a href="{{site.url}}{{site.baseurl}}/{{category | first}}/">
-        {{category | first }}
+        <span class="speaker-name">{{category | first }}</span>
       </a>
     </h2>
       

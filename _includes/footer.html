@@ -2,7 +2,8 @@
   <p class="left">
     Contact: <a href="mailto:test@test.com">Guy Royse</a>
   </p>
-  <p class="center">&copy;{{ site.time | date: "%Y" }} {{site.title}}</p>
-  <p class="right">powered by <a href="http://jekyllrb.com/">Jekyll</a>
+  <p class="right">&copy;{{ site.time | date: "%Y" }} {{site.title}}</p>
   </p>
 </div>
+
+<script src="{{ "/javascript/scripts.js" | prepend: site.baseurl | prepend: site.url }}"></script>

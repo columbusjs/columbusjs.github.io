@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://0.0.0.0:4000"
 twitter_username: cbusjs
 github_username:  cbusjs
-paginate: 5
+paginate: 3
 
 # Build settings
 markdown: kramdown
