@@ -28,7 +28,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #5A5746;
+  color: #666;
   margin-bottom: 20px;
   line-height: 1.2;
 }
@@ -112,12 +112,17 @@ h1.site-title {
   text-align: center;
 }
 
+h1.site-title span {
+  background: rgba(0,0,0,0.6);
+  padding: 0 5px;
+}
+
 .sidebar .site-title a {
   color: #f4f4f4;
 }
 
 .sidebar .site-title a:hover {
-  color: #C9C7BC;
+  color: #A8D6D6;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
@@ -133,6 +138,12 @@ h2.description {
   font-size: 20px;
   color: #fff;
   text-align: center;
+  margin-top: -2px;
+}
+
+h2.description span {
+  background: rgba(0,0,0,0.6);
+  padding: 0 5px 5px;
 }
 
 .post-list h2 {
@@ -142,11 +153,11 @@ h2.description {
 
 .post-list p {
   margin-bottom: 0;
-  color: #5A5746;
+  color: #555;
 }
 
 .speaker-date {
-  background: #B4B09D;
+  background: #099;
   padding: 5px 10px;
   color: white;
   text-align: center;
@@ -180,19 +191,10 @@ h2.speaker-date {
   float: left;
   padding: 40px 15px;
   background: #099;
-  border-right: 10px solid #64A7A7;
-  background-image: -webkit-gradient(
-    linear,
-    right top,
-    right bottom,
-    color-stop(0.16, #247575),
-    color-stop(0.88, #009999)
-  );
-  background-image: -o-linear-gradient(bottom, #247575 16%, #009999 88%);
-  background-image: -moz-linear-gradient(bottom, #247575 16%, #009999 88%);
-  background-image: -webkit-linear-gradient(bottom, #247575 16%, #009999 88%);
-  background-image: -ms-linear-gradient(bottom, #247575 16%, #009999 88%);
-  background-image: linear-gradient(to bottom, #247575 16%, #009999 88%);
+  background-image: url('../images/sidebar-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sidebar table {
@@ -202,37 +204,35 @@ h2.speaker-date {
 
 .location {
   padding: 15px 30px 50px;
-  background: #C9C7BC;
   width: 290px;
+  background: rgba(0,0,0,0.6);
   margin: 0 auto 30px;
 }
 
-.location h3,
 .location p {
-  color: #506363;
+  color: #ACFFFF;
 }
 
 .location h3 {
   margin-bottom: 0;
-  color: #2A4D4D;
   clear: both;
+  color: white;
 }
 
 .location h3.next {
   color: white;
   font-weight: 400;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .address {
-  width: 180px;
+  width: 175px;
   float: left;
   margin-left: 20px;
   margin-top: 20px;
 }
 
 .location svg {
-  fill: #fff;
+  fill: #ACFFFF;
   width: 30px;
   height: 30px;
   margin: 0;
@@ -282,12 +282,11 @@ h2.speaker-date {
 
 .left-menu ul li a {
   padding: 8px;
-  background: #2A4D4D;
+  background: #099;
 }
 
 .left-menu ul li a:hover {
-  background: #1E3C3C;
-  color: #C9C7BC;
+  background: #028B8B;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
@@ -318,7 +317,7 @@ button:focus {
   padding: 20px 30px 40px;
   color: white;
   text-align: center;
-  background: #87836D;
+  background: #86A9A9;
 }
 
 .footer p {
