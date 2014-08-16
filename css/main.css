@@ -118,11 +118,11 @@ h1.site-title span {
 }
 
 .sidebar .site-title a {
-  color: #f4f4f4;
+  color: #A8D6D6;
 }
 
 .sidebar .site-title a:hover {
-  color: #A8D6D6;
+  color: #6acdcd;
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -o-transition: all .5s ease-in-out;
