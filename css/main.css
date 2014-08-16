@@ -23,7 +23,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  background: #87836D;
+  background: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -298,9 +298,9 @@ button {
   height: 25px;
   margin-bottom: 20px;
   font-size: 14px;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
   border-radius: 12px;
-  color: #87836D;
+  color: #099;
   background: #FFF;
   cursor: pointer;
 }

@@ -21,4 +21,4 @@ Prerender slides can be found at [janmilosh.github.io/prerender-talk](http://jan
 
 Craig McKeachie: How to Learn JavaScript Frameworks Quickly - AngularJS, Backbone, Ember
 
-Many copies of Craig's new book *JavaScript Framework Guide - AngularJS, Backbone, Ember: Confidently Choosing and Quickly Learning* will be given away at the talk so be sure to attend this one.
+Many copies of Craig's new book [JavaScript Framework Guide - AngularJS, Backbone, Ember: Confidently Choosing and Quickly Learning](http://www.funnyant.com/javascript-framework-guide/) will be given away at the talk so be sure to attend this one.
