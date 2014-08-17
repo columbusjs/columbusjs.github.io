@@ -1,6 +1,8 @@
 # Website for the Columbus JavaScript Usergroup
 
-This site is built in Jekyll and hosted on GitHub. Because it has a custom plugin, it must be rendered locally before being pushed to gh-pages. There is a rake task in place to easily do this.
+This site is built in Jekyll and hosted on GitHub. Because it has a custom plugin, it must be rendered locally before being deployed. There is a rake task in place to easily do this.
+
+The Master branch is used for deployment, so before deploying, create a development branch and set this as your default branch on github. 
 
 From the root of your project folder:
 
@@ -15,10 +17,9 @@ Run a local server:
 $ jekyll serve -w --config _dev_config.yml
 ```
 
-To publish site, do a build, then rake:
+To publish:
 
 ```sh
-$ jekyll build
 $ rake blog:publish
  ```
 
@@ -33,3 +34,5 @@ References:
 [http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html](http://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html)
 
 [http://www.jaredwolff.com/blog/jekyll-local-preview/](http://www.jaredwolff.com/blog/jekyll-local-preview/)
+
+[http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html](http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html)
