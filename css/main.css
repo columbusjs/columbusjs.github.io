@@ -43,7 +43,8 @@ h1.category {
 
 .categories h2 {
   text-transform: capitalize;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  font-size: 22px;
 }
 
 .location h3.next {
@@ -154,6 +155,10 @@ h2.description span {
 .post-list p {
   margin-bottom: 0;
   color: #555;
+}
+
+.speaker-name {
+  text-transform: capitalize;
 }
 
 .speaker-date {
