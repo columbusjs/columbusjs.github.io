@@ -27,15 +27,15 @@ window.onload = function() {
       name = name.capitalize(true);
       names[i].innerHTML = name;
       
-      if (name.indexOf('Mc') > 0) {
+      if (name.indexOf('Mc') >= 0) {
         names[i].innerHTML = name.replace('Mc ', 'Mc');
         continue;
 
-      } else if (name.indexOf('Mac') > 0) {
+      } else if (name.indexOf('Mac') >= 0) {
         names[i].innerHTML = name.replace('Mac ', 'Mac');
         continue;
 
-      } else if (name.indexOf('O\'') > 0) {
+      } else if (name.indexOf('O\'') >= 0) {
         names[i].innerHTML = name.replace('O\' ' , 'O\'');
         continue;
       }
