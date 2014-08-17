@@ -11,9 +11,10 @@ namespace :blog do
   # We built this little rake task to help make that a little bit eaiser.
   #
 
-  # Usaage:
-  # bundle exec rake blog:publish
-  desc "Publish blog to gh-pages"
+  # Usage:
+  # bundle exec rake blog:publish (rake blog:publish has been working though)
+
+  desc "Generate blog files"
   task :publish do
     # Compile the Jekyll site using the config.
     Jekyll::Site.new(Jekyll.configuration({
@@ -40,9 +41,8 @@ namespace :blog do
 
       # Add the origin remote for the parent repo to the tmp folder.
       system "git remote add origin #{origin}"
-
-      # Push the files to the gh-pages branch, forcing an overwrite.
-      system "git push origin master:refs/heads/gh-pages --force"
+      # Push the files to the master branch, forcing an overwrite.
+      system "git push origin master --force"
     end
 
     # Done.
