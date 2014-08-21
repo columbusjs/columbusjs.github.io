@@ -78,7 +78,7 @@ module Jekyll
       self.ext = '.html'
       self.basename = 'index'
       self.content = <<-EOS
-{% for post in page.posts reversed %}<div class="post"><h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2></div>
+{% for post in page.posts reversed %}<h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
 {% endfor %}
       EOS
       self.data = {
