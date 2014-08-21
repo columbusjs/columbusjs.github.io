@@ -1,7 +1,7 @@
 ---
 date: 2014-07-16 18:30:00
 layout: post
-title: "How to Learn JavaScript Frameworks Quickly - AngularJS, Backbone, Ember"
+title: "How to Learn JavaScript Frameworks Quickly - AngularJS, Backbone, Ember and Prerender.io"
 categories:
 - Craig Mc Keachie
 - Jan Milosh
