@@ -465,10 +465,6 @@ button:focus {
     padding: 15px;
   }
 
-  .categories {
-    display: none;
-  }
-
   .social-icons {
     margin: 0 -15px;
     position: static;
