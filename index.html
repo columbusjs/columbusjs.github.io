@@ -1,78 +1,41 @@
 ---
 layout: default
-title: Columbus JavaScript User Group
 ---
 
-{% assign event = site.categories.events.first %}
-<div
-  id='latest-event'
-  class='jumbotron'>
-  <div class='container'>
-    <h1>{{ event.title }}</h1>
-    <p class='lead'>{{ event.tagline }}</p>
-    <p>{{ event.author }}</p>
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <div class="post">    
 
-    {{ event.content }}
+    <h2 class="speaker-date">
 
-    <p>
-      <a
-        class="btn btn-primary btn-lg"
-        href="{{ event.url }}">Details</a>
-    </p>
-  </div>
-</div>
+        {{ post.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
+        {% for category in post.categories%}
+          <span class="speaker-name">{{ category }}</span><span class="separator">,&nbsp;</span>
+        {% endfor %}
 
-<div class='container'>
-  <h1 class='main-title'>Columbus Javascript User Group</h1>
-</div> <!-- /.container -->
+    </h2>
 
-<ul id="calendarStuff"></ul>
-
-<script src="http://stevenlevithan.com/assets/misc/date.format.js"></script>
-
-<script>
-
-  var onLoadCallback = function() {
-
-    var ul = document.getElementById('calendarStuff');
-
-    gapi.client.setApiKey('AIzaSyDt-Cr4OxzpnxhkIF0fyjAWqVirvbBNZt0');
-    gapi.client.load('calendar', 'v3', function() {
-
-      var now = dateFormat(Date.now(), 'isoUtcDateTime');
-
-      var request = gapi.client.calendar.events.list({ 
-        calendarId: 'cbusjs@gmail.com',
-        showDeleted: false,
-        timeMin: now
-      });
-      request.execute(function(resp) {
-
-        console.log(resp);
-
-        resp.items.filter(function(item) {
-          if (item.start === undefined) return false;
-          return item.start.dateTime >= now;
-        }).sort(function(a, b) {
-          if (a.start.dateTime > b.start.dateTime) return 1; 
-          if (a.start.dateTime < b.start.dateTime) return -11;
-          return 0;
-        }).forEach(function(item) {
-          var li = document.createElement('li');
-          li.innerText = item.summary + ', ' + item.location + ' @ ' + (item.start ? item.start.dateTime : undefined);
-          ul.appendChild(li);
-        });
-      });
+    <h1><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h1>
     
-    });
+    <div class="content">
+      {{ post.content }}
+    </div>
+    
+  </div> 
+{% endfor %}
 
-  };
+<div class="clearfix">
 
-  // this magic code loads the google api
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/client.js?onload=onLoadCallback';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
+  {% if paginator.total_pages > 1 %}
+    
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><button class="pagination-left">Previous</button></a>
+    {% endif %}
 
-</script>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><button class="pagination-right">Next</button></a>
+    {% endif %}
+    
+  {% endif %}
+
+</div>

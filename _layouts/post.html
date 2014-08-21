@@ -1,13 +1,22 @@
 ---
 layout: default
-name: Posts
 ---
+<div class="post">
 
-<article>
-  <h2>{{ page.title }}</h2>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+  <h2 class="speaker-date">
 
-  <div class="post">
+      {{ page.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
+      
+      {% for category in page.categories%}
+        <span class="speaker-name">{{ category }}</span><span class="separator">,&nbsp;</span>
+      {% endfor %}
+
+    </h2>
+
+  <h1>{{ page.title }}</h1>
+    
+  <div class="content">
     {{ content }}
   </div>
-</article>
+
+</div>

@@ -3,7 +3,7 @@ title: CBusJS
 email: 
 description: "Columbus JavaScript User Group"
 baseurl: ""
-url: "http://cbusjs.github.io"
+url: "http://0.0.0.0:4000"
 twitter_username: cbusjs
 github_username:  cbusjs
 paginate: 3

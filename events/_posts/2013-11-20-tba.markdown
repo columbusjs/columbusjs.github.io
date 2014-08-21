@@ -1,9 +1,0 @@
----
-layout: event
-title: "November Columbus JavaScript User Group Meeting"
-tagline: "November 20, 2013"
-date: 2013-11-20 19:00:00
-categories: tba
----
-
-Topics and speakers not yet announced.  Interested in speaking?  Contact Guy Royse.
