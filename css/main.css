@@ -68,6 +68,10 @@ li a.post-link {
   font-weight: 300;
 }
 
+.wrapper ul li {
+  color: #444;
+}
+
 p a {
   text-decoration: underline;
 }
