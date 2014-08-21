@@ -480,3 +480,9 @@ button:focus {
   }
 
 }
+
+@media screen and (max-width: 400px) {
+  .left-menu ul li {
+    margin: 20px 0px;
+  }
+}
