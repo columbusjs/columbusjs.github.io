@@ -169,6 +169,7 @@ h2.description span {
 
 .speaker-name {
   text-transform: capitalize;
+  white-space: nowrap;
 }
 
 .speaker-date {
