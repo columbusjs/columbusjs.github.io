@@ -73,7 +73,7 @@ li a.post-link {
 }
 
 p a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a,
@@ -89,8 +89,13 @@ a:visited {
   color: #f4f4f4;
 }
 
-a:hover {
+.sidebar .site-title a:hover,
+.sidebar ul li a:hover {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .social-icons {
@@ -116,6 +121,7 @@ h1.site-title {
   margin-bottom: 0;
   text-align: center;
 }
+
 
 h1.site-title span {
   background: rgba(0,0,0,0.6);
