@@ -6,4 +6,4 @@ categories:
 - Guy Royse
 ---
 
-Guy Royse will put the DnD in TDD by leading the group in the EverCraft Kata.
+We'll be joining together for the holidays with an extended Code Kata session. Guy will be leading the group in coding the Evercraft Kata.
