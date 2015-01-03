@@ -4,7 +4,7 @@ This site is built in Jekyll and hosted on GitHub. Because it has a custom plugi
 
 You will need to use RVM (Ruby Version Manager) or equivalent and have the bundler gem installed.
 
-The Master branch is used for deployment. The should be set this as the default branch on github. 
+The Master branch is used for deployment. The `development` branch should be set as the default branch on github. 
 
 After first cloning this project, run:
 
