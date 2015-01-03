@@ -2,25 +2,32 @@
 
 This site is built in Jekyll and hosted on GitHub. Because it has a custom plugin, it must be rendered locally before being deployed. There is a rake task in place to easily do this.
 
-The Master branch is used for deployment, so before deploying, create a development branch and set this as your default branch on github. 
+You will need to use RVM (Ruby Version Manager) or equivalent and have the bundler gem installed.
 
-From the root of your project folder:
+The Master branch is used for deployment. The should be set this as the default branch on github. 
 
-Build the site:
+After first cloning this project, run:
 
-```sh
+```
+$ bundle install
+```
+
+To build the site:
+
+```
 $ jekyll build
 ```
-Run a local server:
 
-```sh
+To run a local server:
+
+```
 $ jekyll serve -w --config _dev_config.yml
 ```
 
 To publish:
 
-```sh
-$ rake blog:publish
+```
+$ bundle exec rake blog:publish
  ```
 
 There is a JS function for camelizing names that begin with Mac, Mc, or O'. Simply leave a space after the prefix when listing the name at the top of the post (in the category list) in order to make this work.
