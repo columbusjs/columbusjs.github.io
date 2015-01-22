@@ -4,7 +4,6 @@ layout: post
 title: "Polymer"
 categories:
 - Pete Gordon
-- Casey Borders
 ---
 
 From [www.polymer-project.org](https://www.polymer-project.org):
@@ -12,3 +11,7 @@ From [www.polymer-project.org](https://www.polymer-project.org):
 "Web Components usher in a new era of web development based on encapsulated and interoperable custom elements that extend HTML itself. Built atop these new standards, Polymer makes it easier and faster to create anything from a button to a complete application across desktop, mobile, and beyond."
 
 Polymer learning events and resources: [itshackademic.com](http://itshackademic.com/)
+
+![Pete Gordon on Polymer]({{ "/images/pete1.jpg" | prepend: site.baseurl | prepend: site.url }} 'Pete Gordon on Polymer')
+
+![Pete Gordon on Polymer]({{ "/images/pete2.jpg" | prepend: site.baseurl | prepend: site.url }} 'Pete Gordon on Polymer')
