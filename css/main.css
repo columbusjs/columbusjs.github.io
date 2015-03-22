@@ -125,7 +125,7 @@ h1.site-title {
 
 h1.site-title span {
   background: rgba(0,0,0,0.6);
-  padding: 0 5px;
+  padding: 8px 5px 1px;
 }
 
 .sidebar .site-title a {
@@ -154,7 +154,7 @@ h2.description {
 
 h2.description span {
   background: rgba(0,0,0,0.6);
-  padding: 0 5px 5px;
+  padding: 7px 5px 5px;
 }
 
 .post-list h2 {
