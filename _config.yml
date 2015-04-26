@@ -1,9 +1,9 @@
 # Site settings
 title: CBusJS
-email: 
+email:
 description: "Columbus JavaScript User Group"
 baseurl: ""
-url: "http://cbusjs.github.io"
+url: "https://cbusjs.github.io"
 twitter_username: cbusjs
 github_username:  cbusjs
 paginate: 3
