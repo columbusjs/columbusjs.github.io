@@ -15,3 +15,5 @@ and modules. We will concentrate on the practical aspects of the changes. The
 session will be interactive, includes many code examples, and will encourage
 audience participation. By the end of the presentation, participants will know
 when and how to use ES6 in their own projects.
+
+![Abdul Habra on ECMAScript 6]({{ "/images/abdul.jpg" | prepend: site.baseurl | prepend: site.url }} 'Abdul Habra on ECMAScript 6')
