@@ -1,7 +1,7 @@
 ---
 date: 2016-09-21 19:00:00
 layout: post
-title: "Full Stack Development with Node.js and NoSQL"
+title: "Cooking with Gas"
 categories:
 - Sean Dennison
 ---
