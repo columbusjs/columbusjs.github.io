@@ -1,0 +1,9 @@
+---
+date: 2016-10-19 19:00:00
+layout: post
+title: "Rio.js"
+categories:
+- Eric Butler
+---
+
+Check out [Riot.js](http://riotjs.com/) a microlibrary for building SPAs.
