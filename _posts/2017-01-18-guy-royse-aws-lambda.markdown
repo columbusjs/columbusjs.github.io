@@ -1,0 +1,9 @@
+---
+date: 2017-01-18 19:00:00
+layout: post
+title: "AWS Lambda"
+categories:
+- Guy Royse
+---
+
+[Guy Royse](http://guyroyse.com/) will be live coding a simple AWS Lambda service.
