@@ -13,7 +13,6 @@ will discuss D3.js, CrossFilter.js, DC.js and jQuery DataTables. These are
 very robust community supported libraries. Use them in your client application
 to add interactive visualizations and data analysis tools.
 
-About Doug
 [Doug](doug.mair@gmail.com) is a Principal Consultant at Improving Enterprises
 in Columbus Ohio. He started developing software as a high school freshman on
 a TRS-80 16K. Since then he developed software for Graphics Kiosks, Rules
