@@ -13,8 +13,8 @@ On Wednesday, September 17th, we are having a JavaScript Hardware Night. Bring y
 
 The format will be loose. People who want to share their ideas will be given a screen to do it on. If you just want to hack, then pair up with some buddies and have at it.
 
-![Doug Reeder]({{ "/images/doug.jpg"  }} 'Doug Reeder on Connect SDK')
+![Doug Reeder]({{ "/images/doug.jpg" }} 'Doug Reeder on Connect SDK')
 
-![Scott Preston]({{ "/images/scott.jpg"  }} 'Scott Preston with his robot')
+![Scott Preston]({{ "/images/scott.jpg" }} 'Scott Preston with his robot')
 
-![Keith McCanless]({{ "/images/keith.jpg"  }} 'Keith McCanless on Beaglebone')
+![Keith McCanless]({{ "/images/keith.jpg" }} 'Keith McCanless on Beaglebone')

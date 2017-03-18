@@ -13,6 +13,6 @@ Polymer learning events and resources: [itshackademic.com](http://itshackademic.
 
 Other good resources: [webcomponents.org](http://webcomponents.org/), [component.kitchen](http://component.kitchen/)
 
-![Pete Gordon on Polymer]({{ "/images/pete1.jpg"  }} 'Pete Gordon on Polymer')
+![Pete Gordon on Polymer]({{ "/images/pete1.jpg" }} 'Pete Gordon on Polymer')
 
-![Pete Gordon on Polymer]({{ "/images/pete2.jpg"  }} 'Pete Gordon on Polymer')
+![Pete Gordon on Polymer]({{ "/images/pete2.jpg" }} 'Pete Gordon on Polymer')
