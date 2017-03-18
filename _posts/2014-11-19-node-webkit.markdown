@@ -11,4 +11,4 @@ The presentation is available on github: [github.com/scottpreston/presentations/
 
 [github.com/rogerwang/node-webkit](https://github.com/rogerwang/node-webkit)
 
-![Scott Preston]({{ "/images/scottpreston.jpg" | prepend: site.baseurl | prepend: site.url }} 'Scott Preston')
+![Scott Preston]({{ "/images/scottpreston.jpg"  }} 'Scott Preston')

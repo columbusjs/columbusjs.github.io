@@ -9,6 +9,6 @@ Jason Karns will talk about why we don't really need all these build tools and s
 
 Check out these articles: [Why we should stop using Grunt & Gulp](http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/) and [How to Use npm as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/), both by Keith Cirkel.
 
-![Guy and Jason]({{ "/images/guy_jason.jpg" | prepend: site.baseurl | prepend: site.url }} 'Guy and Jason')
+![Guy and Jason]({{ "/images/guy_jason.jpg"  }} 'Guy and Jason')
 
-![Jason Karns]({{ "/images/jason.jpg" | prepend: site.baseurl | prepend: site.url }} 'Jason Karns')
+![Jason Karns]({{ "/images/jason.jpg"  }} 'Jason Karns')

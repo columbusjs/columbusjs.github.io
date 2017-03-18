@@ -9,4 +9,4 @@ Grunt is king. It is the ubiquitous task runner used for most nodejs projects an
 
 The deck is already online, too at [speakerdeck.com](https://speakerdeck.com/jayharris/dethroning-grunt-simple-and-effective-builds-with-gulp-dot-js).
 
-![Jay Harris]({{ "/images/jayharris.jpg" | prepend: site.baseurl | prepend: site.url }} 'Jay Harris on Gulp')
+![Jay Harris]({{ "/images/jayharris.jpg"  }} 'Jay Harris on Gulp')

@@ -7,4 +7,4 @@ speaker: "Neal Lindsay"
 
 Neal Lindsay presents an introduction to D3.js, a JavaScript library for interactive data visualization.
 
-![Neal Lindsay]({{ "/images/neal.jpg" | prepend: site.baseurl | prepend: site.url }} 'Neal Lindsay on D3.js')
+![Neal Lindsay]({{ "/images/neal.jpg"  }} 'Neal Lindsay on D3.js')
