@@ -2,8 +2,7 @@
 date: 2016-09-21 19:00:00
 layout: post
 title: "Cooking with Gas"
-categories:
-- Sean Dennison
+speaker: "Sean Dennison"
 ---
 
 Google Apps Script (GAS) is a JavaScript cloud scripting language that provides

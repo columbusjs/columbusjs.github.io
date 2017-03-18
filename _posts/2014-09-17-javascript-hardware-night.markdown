@@ -2,11 +2,6 @@
 date: 2014-09-17 18:30:00
 layout: post
 title: "JavaScript Hardware Night"
-categories:
-- Scott Preston
-- Doug Reeder
-- Guy Royse
-- Keith Mc Canless
 ---
 
 On Wednesday, September 17th, we are having a JavaScript Hardware Night. Bring your JavaScript powered hardware projects and share them with the group (if you like). Bring stuff to hack on and bring your ideas.

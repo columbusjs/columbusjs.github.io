@@ -4,30 +4,23 @@ layout: default
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="post">    
+  <div class="post">
 
-    <h2 class="speaker-date">
-
-        {{ post.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
-        {% for category in post.categories%}
-          <span class="speaker-name">{{ category }}</span><span class="separator">,&nbsp;</span>
-        {% endfor %}
-
-    </h2>
+    <h2 class="speaker-date">{% include date-and-speaker.html %}</h2>
 
     <h1><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h1>
-    
+
     <div class="content">
       {{ post.content }}
     </div>
-    
-  </div> 
+
+  </div>
 {% endfor %}
 
 <div class="clearfix">
 
   {% if paginator.total_pages > 1 %}
-    
+
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><button class="pagination-left">Previous</button></a>
     {% endif %}
@@ -35,7 +28,7 @@ layout: default
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><button class="pagination-right">Next</button></a>
     {% endif %}
-    
+
   {% endif %}
 
 </div>

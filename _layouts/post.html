@@ -3,18 +3,11 @@ layout: default
 ---
 <div class="post">
 
-  <h2 class="speaker-date">
-
-      {{ page.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
-      
-      {% for category in page.categories%}
-        <span class="speaker-name">{{ category }}</span><span class="separator">,&nbsp;</span>
-      {% endfor %}
-
-    </h2>
+  {% assign post = page %}
+  <h2 class="speaker-date">{% include date-and-speaker.html %}</h2>
 
   <h1>{{ page.title }}</h1>
-    
+
   <div class="content">
     {{ content }}
   </div>

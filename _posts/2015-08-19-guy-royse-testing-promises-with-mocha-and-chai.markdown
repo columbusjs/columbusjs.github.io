@@ -2,8 +2,7 @@
 date: 2015-08-19 19:00:00
 layout: post
 title: "Testing Promises with Mocha & Chai"
-categories:
-- Guy Royse
+speaker: "Guy Royse"
 ---
 
 Guy Royse will live code his way through another talk. This time talking about

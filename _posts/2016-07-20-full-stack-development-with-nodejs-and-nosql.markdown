@@ -2,8 +2,7 @@
 date: 2016-07-20 19:00:00
 layout: post
 title: "Full Stack Development with Node.js and NoSQL"
-categories:
-- Matthew Groves
+speaker: "Matthew Groves"
 ---
 
 In this session will talk about what is different about this generation of web

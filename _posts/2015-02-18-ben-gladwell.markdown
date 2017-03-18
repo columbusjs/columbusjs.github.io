@@ -2,8 +2,7 @@
 date: 2015-02-18 18:30:00
 layout: post
 title: "Gulp.js"
-categories:
-- Ben Gladwell
+speaker: "Ben Gladwell"
 ---
 
 Ben Gladwell will give a talk on Gulp.js. Gulp is a popular task runner/build tool. It's powered by NodeJS and uses pipes for streaming data. There are a vast array of Gulp plugins available for tasks such as minifying code, uglifying javascript, watching files, and live-reloading the browser when files have changed.

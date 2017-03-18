@@ -2,10 +2,7 @@
 date: 2014-10-15 18:30:00
 layout: post
 title: "Building Killer Javascript Apps With IBM Bluemix"
-categories:
-- Ryan Baxter
-- Anton Mc Conville
-- Nathan Vega
+speaker: "Ryan Baxter, Anton McConville, Nathan Vega"
 ---
 
 Bluemix is a platform-as-a-service (PaaS) offering from IBM with roots deeply grounded in an open source project called Cloud Foundry. Javascript is a first class citizen when it comes to applications running on Bluemix.

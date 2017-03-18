@@ -2,8 +2,7 @@
 date: 2016-04-20 19:00:00
 layout: post
 title: "jQuery & 10,000 Global Functions: Working with Legacy JavaScript"
-categories:
-- Guy Royse
+speaker: "Guy Royse"
 ---
 
 Long ago, in the late days of the first Internet boom, before jQuery, before

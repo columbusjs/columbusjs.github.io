@@ -1,13 +1,20 @@
 # Site settings
 title: CBusJS
-email:
-description: "Columbus JavaScript User Group"
-baseurl: ""
-url: "https://cbusjs.github.io"
+description: "Columbus JavaScript Usergroup"
+url: https://columbusjs.org
+email: guy@guyroyse.com
 twitter_username: cbusjs
 github_username:  cbusjs
-paginate: 3
-
-# Build settings
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sass-converter
+  - kramdown
+  - rouge
 markdown: kramdown
+highlighter: rouge
+timezone: America/Detroit
+safe: false
+paginate: 3
 permalink: /:month-:day-:year/:title.html
+future: true

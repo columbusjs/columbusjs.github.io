@@ -2,9 +2,6 @@
 date: 2015-11-18 19:00:00
 layout: post
 title: "Hardware Hack Night"
-categories:
-- Guy Royse
-- Scott Preston
 ---
 
 Hack! Share! Learn! We'll be joining forces with the Arduino & Raspberry Pi

@@ -2,8 +2,7 @@
 date: 2015-04-15 18:30:00
 layout: post
 title: "ECMAScript 6 Now!"
-categories:
-- Abdul Habra
+speaker: "Abdul Habra"
 ---
 
 ECMAScript most famous dialect is JavaScript, and the coming version is

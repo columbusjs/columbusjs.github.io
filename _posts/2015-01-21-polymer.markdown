@@ -2,8 +2,7 @@
 date: 2015-01-21 18:30:00
 layout: post
 title: "Polymer"
-categories:
-- Pete Gordon
+speaker: "Pete Gordon"
 ---
 
 From [www.polymer-project.org](https://www.polymer-project.org):

@@ -2,8 +2,7 @@
 date: 2016-08-17 19:00:00
 layout: post
 title: "Merging Partitioned Data Without Conflicts (Ever!): The Magic of CRDTs"
-categories:
-- R. J. Osborne
+speaker: "R. J. Osborne"
 ---
 
 Your Sets, Dictionaries and Graphs have a problem. It is difficult to merge changes made in your domain -- especially

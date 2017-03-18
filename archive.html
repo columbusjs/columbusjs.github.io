@@ -10,22 +10,15 @@ permalink: /meetups/
   <div class="post-list">
 
     {% for post in site.posts %}
-      
-      <p class="post-category">
 
-        {{ post.date | date: "%B %d, %Y" %}}&nbsp;&ndash;
-        {% for category in post.categories%}
-          <span class="speaker-name">{{ category }}</span><span class="separator">,&nbsp;</span>
-        {% endfor %}
-      
-      </p>
-      
+      <p class="post-category">{% include date-and-speaker.html %}</p>
+
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
 
     {% endfor %}
-  
+
   </div>
 
 </div>

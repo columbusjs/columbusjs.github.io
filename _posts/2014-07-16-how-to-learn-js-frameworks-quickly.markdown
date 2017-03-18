@@ -2,9 +2,7 @@
 date: 2014-07-16 18:30:00
 layout: post
 title: "How to Learn JavaScript Frameworks Quickly - AngularJS, Backbone, Ember and Prerender.io"
-categories:
-- Craig Mc Keachie
-- Jan Milosh
+speaker: "Craig McKeachie & Jan Milosh"
 ---
 
 The key to quickly learning JavaScript MV* Frameworks is to break them down into a series of features. The main features of an MV* application are routing, data binding, templates/views, models, and data storage. In this talk, I’ll describe these main features and show code examples from two or three frameworks for each feature. You will begin to concretely understand what these frameworks are trying to help you accomplish and realize they are more alike than they are different. In fact, it becomes apparent that most of the frameworks borrow heavily from the successes of the others.

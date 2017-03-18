@@ -4,4 +4,4 @@ layout: post
 title: "No Meeting"
 ---
 
-Due to a last minute speaker cancellation, there will be no meeting this month.
+Due to a last minute cancellation, there will be no meeting this month.

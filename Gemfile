@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
-
-gem 'github-pages'
-gem 'jekyll'
-gem 'rake'
+gem 'jekyll', '3.4.2'
+gem 'jekyll-feed', '0.9.1'
+gem 'jekyll-paginate', '1.1.0'
+gem 'jekyll-sass-converter', '1.5.0'
+gem 'kramdown', '1.13.2'
+gem 'rouge', '1.11.1'
