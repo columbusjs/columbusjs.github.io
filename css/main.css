@@ -29,7 +29,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #666;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 1.2;
 }
 
@@ -68,24 +68,20 @@ li a.post-link {
   font-weight: 300;
 }
 
-.wrapper ul li {
-  color: #444;
-}
-
 p a {
   text-decoration: none;
 }
 
 a,
 a:hover,
-a:visited { 
+a:visited {
   color: #228383;
   text-decoration: none;
 }
 
 .sidebar a,
 .sidebar a:hover,
-.sidebar a:visited { 
+.sidebar a:visited {
   color: #f4f4f4;
 }
 
@@ -191,7 +187,9 @@ h2.speaker-date {
 .page-content img {
   display: block;
   margin: 30px auto;
-  width: 100%;
+  margin-left: 0;
+  /*width: 100%;*/
+  text-align: left;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -315,7 +313,13 @@ body {
 
 .wrapper ul {
   margin-bottom: 10px;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.wrapper ul li {
+  color: #444;
 }
 
 .sidebar ul {
