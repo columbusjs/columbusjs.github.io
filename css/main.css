@@ -102,6 +102,13 @@ a:hover {
   bottom: 10px;
 }
 
+.social-icons img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px 15px;
+}
+
 .sidebar svg {
   fill: #eee;
   display: inline-block;
