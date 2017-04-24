@@ -50,6 +50,3 @@ DEPENDENCIES
   jekyll-sass-converter (= 1.5.0)
   kramdown (= 1.13.2)
   rouge (= 1.11.1)
-
-BUNDLED WITH
-   1.11.2
