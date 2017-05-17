@@ -126,8 +126,13 @@ h1.site-title {
 }
 
 
-h1.site-title span {
+.titles {
+  width: 330px;
+  margin: 0 auto;
   background: rgba(0,0,0,0.6);
+}
+
+h1.site-title span {
   padding: 8px 5px 1px;
 }
 
@@ -156,7 +161,6 @@ h2.description {
 }
 
 h2.description span {
-  background: rgba(0,0,0,0.6);
   padding: 7px 5px 5px;
 }
 
@@ -223,7 +227,7 @@ h2.speaker-date {
 }
 
 .location {
-  padding: 15px 30px 50px;
+  padding: 15px 30px 8px;
   width: 290px;
   background: rgba(0,0,0,0.6);
   margin: 0 auto 30px;
@@ -459,6 +463,10 @@ button:focus {
   h2.description {
     font-size: 16px;
     margin-bottom: 10px;
+  }
+
+  .titles {
+    width: 290px;
   }
 
   .sidebar {
