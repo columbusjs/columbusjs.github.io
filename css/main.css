@@ -293,6 +293,16 @@ body {
           animation: fadein 2s;
 }
 
+blockquote {
+  margin: 10px 25px;
+  background: #86A9A9;
+  padding: 10px 15px;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0px;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
