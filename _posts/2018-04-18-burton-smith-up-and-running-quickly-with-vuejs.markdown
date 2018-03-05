@@ -11,6 +11,6 @@ From the [Vue.js](https://vuejs.org/) site:
 
 Burton is a software engineer at Bunzl North America and has been building software and applications for over 10 years. He builds line-of-business applications and works closely with their marketing teams on external-facing websites in their CMS.
 
-In his free time, he loves spending time with his wife and three daughters, practising my martial arts, and learning new things (usually about programming).
+In his free time, he loves spending time with his wife and three daughters, practicing my martial arts, and learning new things (usually about programming).
 
 People can reach him on Twitter [@stuffbreaker](https://twitter.com/stuffbreaker) or email directly at [burton@breakstuff.io](mailto:burton@breakstuff.io).
