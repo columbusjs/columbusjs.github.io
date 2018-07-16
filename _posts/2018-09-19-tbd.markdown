@@ -2,7 +2,6 @@
 date: 2018-09-19 19:00:00
 layout: post
 title: "Speaker Needed!"
-speaker: "TBD"
 ---
 
 We need a speaker for September. It could be you! Email guy@guyroyse.com if you're interested!
