@@ -1,7 +1,7 @@
 ---
 date: 2018-09-19 19:00:00
 layout: post
-title: "Creative Coding with p5.js and the STEMcoding Project"
+title: "🎤 Creative Coding with p5.js and the STEMcoding Project"
 speaker: "Chris Orban"
 ---
 

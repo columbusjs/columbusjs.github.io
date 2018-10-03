@@ -1,7 +1,7 @@
 ---
 date: 2019-01-16 19:00:00
 layout: post
-title: "Lightning Talk: Exploring the sort Method in JavaScript"
+title: "⚡️ Exploring the sort Method in JavaScript"
 speaker: "Timothy Spencer"
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2018-08-15 19:00:00
 layout: post
-title: "An Introduction to WebAssembly"
+title: "🎤 An Introduction to WebAssembly"
 speaker: "Guy Royse"
 ---
 

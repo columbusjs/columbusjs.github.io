@@ -1,7 +1,7 @@
 ---
 date: 2019-01-16 19:30:00
 layout: post
-title: "The Future is All Front End"
+title: "🎤 The Future is All Front End"
 speaker: "Joe Emison"
 ---
 
