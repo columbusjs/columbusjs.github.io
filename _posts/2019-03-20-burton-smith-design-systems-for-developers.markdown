@@ -10,3 +10,5 @@ It's a common misconception that Design Systems are for designers. While this is
 Burton Smith has been building software and applications for over 10 years and focuses primarily on web and mobile software engineering. At his current company, he works with internal business stakeholders and external customers to build digital products.
 
 In his free time, he loves spending time with his wife and three daughters, practicing martial arts, jamming on his ukulele, and learning new things (usually about software engineering).
+
+People can reach him on Twitter [@stuffbreaker](https://twitter.com/stuffbreaker) or email directly at [burton@breakstuff.io](mailto:burton@breakstuff.io).
