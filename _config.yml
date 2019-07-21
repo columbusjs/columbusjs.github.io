@@ -5,7 +5,7 @@ url: http://columbusjs.org
 email: guy@guyroyse.com
 twitter_username: cbusjs
 github_username:  cbusjs
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sass-converter
