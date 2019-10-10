@@ -5,4 +5,4 @@ title: "🎤 ES2019"
 speaker: "Tara Manicsic"
 ---
 
-Tara will be talking to use about ES2019. More to come!
+Tara will be talking to us about ES2019. More to come!
