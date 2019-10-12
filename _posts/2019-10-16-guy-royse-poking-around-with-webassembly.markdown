@@ -5,4 +5,4 @@ title: "🖥 Poking Around with WebAssembly"
 speaker: "Guy Royse"
 ---
 
-Last minute change! This month we'll have [Guy Royse](http://guyroyse.com/) showing everyone the ropes of WebAssembly and he'll live code a kata or the audiences choosing (within reason folks) in WebAssembly Text Format.
+Last minute change! This month we'll have [Guy Royse](http://guyroyse.com/) showing everyone the ropes of WebAssembly and he'll live code a kata of the audience's choosing (within reason folks) in WebAssembly Text Format.
