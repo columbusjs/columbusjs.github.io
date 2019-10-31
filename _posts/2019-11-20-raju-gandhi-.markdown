@@ -1,5 +1,5 @@
 ---
-date: 2020-01-15 19:00:00
+date: 2019-11-20 19:00:00
 layout: post
 title: "🎤 Raju Gandhi on Vue.js"
 speaker: "Raju Gandhi"

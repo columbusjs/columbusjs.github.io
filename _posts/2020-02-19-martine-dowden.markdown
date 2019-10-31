@@ -1,5 +1,5 @@
 ---
-date: 2019-11-20 19:00:00
+date: 2020-02-19 19:00:00
 layout: post
 title: "🎤 Mastering Shadow Dom"
 speaker: "Martine Dowden"
