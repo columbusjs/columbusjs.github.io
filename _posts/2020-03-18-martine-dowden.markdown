@@ -1,7 +1,7 @@
 ---
 date: 2020-03-18 19:00:00
 layout: post
-title: "🎤 Mastering Shadow Dom"
+title: "📽 Mastering Shadow Dom [ONLINE ONLY]"
 speaker: "Martine Dowden"
 ---
 
@@ -16,3 +16,5 @@ Me too! Components are a staple of front-end development as they increase develo
 Using nothing more than HTML and Javascript that is readily available to us in all modern browsers we can create components that work without being tied to any one front-end framework.
 
 You will walk away with the knowledge you need to go forth and create your own components, understand how to make them look gorgeous, and what if any limitations there are. Also, find out how you can bring back the blink tag!
+
+**NOTE: This month the meetup will be online only. We'll be streaming on Twitch. Watch it at [https://www.twitch.tv/ColumbusJS](https://www.twitch.tv/ColumbusJS) at 7:00 PM.**
