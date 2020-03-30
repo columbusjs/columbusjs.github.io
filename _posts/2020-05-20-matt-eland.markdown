@@ -11,8 +11,8 @@ There will be a little bit of something for everyone in this eclectic talk as Ma
 
 We'll walk through the process of prototyping the game world and its interface using event modeling, Balsamiq, and diagramming tools.
 
-You'll learn how to quickly take a mockup and build it out using Angular and Angular Material. 
- 
+You'll learn how to quickly take a mockup and build it out using Angular and Angular Material.
+
 We'll take an in-depth look at input parsing using NLP-Compromise to parse user commands and make sense of sentences without having to build a robust database of individual words.
 
 We'll see how Jest and test-driven-development pair well with Google Analytics to iteratively design and refine the way the game responds to player input.
