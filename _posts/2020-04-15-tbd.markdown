@@ -1,8 +1,16 @@
 ---
 date: 2020-04-15 19:00:00
 layout: post
-title: "🤷🏻‍♂️ TBD"
+title: "🤷🏻‍♂️ Live Coding with Guy: RedisMUD"
 speaker: "Guy Royse"
+---
+
+[Twitter has spoken](https://twitter.com/guyroyse/status/1244700396448296961) and a solid hour or BeardCam it is. However, it was a trick! Whenever I'm on camera, it's BeardCam!
+
+The number two choice was to live-code on [RedisMUD](https://github.com/guyroyse/redis-mud). So, that's what we'll be doing. I'll be working with Node and RedisGraph. Tests will be written inusing Mocha, Chai, and Sinon.
+
+The meeting [will be streamed](https://www.twitch.tv/ColumbusJS) on Twitch and there'll be a Zoom session going as well so y'all can interact with me while I code. Links to the Zoom will be on Meetup when you RSVP. So, please [go and do that](https://www.meetup.com/techlifecolumbus/events/hlrxxqybcgbtb/)!
+
 ---
 
 Like the rest of the world, we're online only right now. As a result, the previously scheduled speaker is not able to make the meetup. I'm planning on filling in. We've got a couple choices here:
