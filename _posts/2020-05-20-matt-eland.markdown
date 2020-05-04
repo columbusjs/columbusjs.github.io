@@ -5,6 +5,10 @@ title: "🧙‍♂️ Building an Interactive Fiction Game in Modern JavaScript"
 speaker: "Matt Eland"
 ---
 
+### [RSVP at Meetup](https://www.meetup.com/techlifecolumbus/events/hlrxxqybchbbc/) to join the converstation on Zoom
+
+### [Watch online](https://www.twitch.tv/ColumbusJS) at Twitch
+
 Ever look at modern gaming and think "Gee, I really wish modern games looked like text-based games from the 80's, but with a modern JavaScript front end"? If so, you have interesting hobbies.
 
 There will be a little bit of something for everyone in this eclectic talk as Matt walks us through the basics of building a text-based game engine using TypeScript and NLP-Compromise.
