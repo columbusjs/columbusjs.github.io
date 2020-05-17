@@ -1,7 +1,7 @@
 ---
 date: 2020-08-19 19:00:00
 layout: post
-title: "🗣 You might not need Webpack"
+title: "🎤 You might not need Webpack"
 speaker: "Ryan Lanciaux"
 ---
 
