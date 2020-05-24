@@ -1,13 +1,11 @@
 ---
 date: 2020-08-19 19:00:00
 layout: post
-title: "🎤 You might not need Webpack"
+title: "You Might Not Need Webpack"
 speaker: "Ryan Lanciaux"
+emoji: 🎤
+rsvp: https://www.meetup.com/techlifecolumbus/events/hlrxxqybclbzb/
 ---
-
-### [RSVP at Meetup](https://www.meetup.com/techlifecolumbus/events/hlrxxqybclbzb/) to join the converstation on Zoom
-
-### [Watch online](https://www.twitch.tv/ColumbusJS) at Twitch
 
 Webpack is an excellent tool for bundling web applications for the browser. The advancements that bundling a web application unlocked propelled frontend applications to where they are today. If you’re building a production application with JavaScript, it’s very likely you’re using Webpack. But what if you could ship your applications without using a bundler? What if you could write applications with better performance and less developer overhead?
 

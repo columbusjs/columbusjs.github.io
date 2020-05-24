@@ -1,13 +1,11 @@
 ---
 date: 2020-07-15 19:00:00
 layout: post
-title: "🗣 Cypress: Where Automated Web UI Testing Isn’t Just for QA Anymore"
+title: "Cypress - Where Automated Web UI Testing Isn’t Just for QA Anymore"
 speaker: "Justin James"
+emoji: 🗣
+rsvp: https://www.meetup.com/techlifecolumbus/events/hlrxxqybckbtb/
 ---
-
-### [RSVP at Meetup](https://www.meetup.com/techlifecolumbus/events/hlrxxqybckbtb/) to join the converstation on Zoom
-
-### [Watch online](https://www.twitch.tv/ColumbusJS) at Twitch
 
 Today’s fast-moving software delivery environment emphasizes pushing value to production as quickly as possible. “Value to production” implicitly requires high quality—low quality is of little value to anyone! —which means teams need to focus on being able to specify, build, test, and deploy software effectively and quickly. Acceptance testing historically been manually intensive efforts run by a dedicated QA department, resulting in a slower pace of production releases.
 

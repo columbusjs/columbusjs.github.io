@@ -1,28 +1,20 @@
 ---
 layout: default
+title: Upcoming Events
 ---
+
+<h1>{{ page.title }}</h1>
 
 <!-- This loops through the paginated posts -->
 {% assign currentAndFuturePosts = site.posts | reverse %}
 {% assign currentDate = site.time | date: '%Y-%m-%d' %}
-{% for post in currentAndFuturePosts %}
 
+{% for post in currentAndFuturePosts %}
   {% assign postDate = post.date | date: '%Y-%m-%d' %}
 
   {% if postDate >= currentDate %}
-
-    <div class="post" data-post-date="{{ postDate }}">
-
-      <h2 class="speaker-date">{% include date-and-speaker.html %}</h2>
-
-      <h1><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h1>
-
-      <div class="content">
-        {{ post.content }}
-      </div>
-
-    </div>
-
+    <article data-post-date="{{ postDate }}">
+      {% include post-content.html %}
+    </article>
   {% endif %}
-
 {% endfor %}

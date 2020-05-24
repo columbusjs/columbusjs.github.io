@@ -1,0 +1,18 @@
+<h1>
+  {% if post.emoji %}{{ post.emoji }} {% endif %}
+  <span>{% if post.speaker %}{{ post.speaker }}: {% endif %}</span>
+  <a href="{{ post.url }}">
+    {{ post.title }}
+  </a>
+</h1>
+<h2>
+  {{ post.date | date: "%A, %B %e, %Y @ %l:%M %P %Z" }}
+</h2>
+<h3>
+  {% if post.rsvp %}
+    <a href="{{ post.rsvp }}">RSVP</a> to join the conversation.
+  {% endif %}
+  <a href="{{ site.twitch }}">Watch live</a> on Twitch!
+</h3>
+
+{{ post.content }}

@@ -3,8 +3,11 @@ title: ColumbusJS
 description: "The Columbus JavaScript Meetup"
 url: http://columbusjs.org
 email: guy@guyroyse.com
-twitter_username: cbusjs
-github_username:  cbusjs
+twitter: https://twitter.com/cbusjs
+github: https://github.com/columbusjs
+twitch: https://www.twitch.tv/ColumbusJS
+discord: https://discord.gg/SpHNwXS
+youtube: https://www.youtube.com/channel/UCcoPThmAqKoedt7AVHl0elw
 plugins:
   - jekyll-paginate
   - jekyll-feed
