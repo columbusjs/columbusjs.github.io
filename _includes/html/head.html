@@ -1,0 +1,21 @@
+{% assign title = site.title | default: "" %}
+
+{% if page.title %}
+
+  {% assign title = title | append: " - " %}
+
+  {% if page.speaker %}
+    {% assign title = title | append: page.speaker %}
+    {% assign title = title | append: ": " %}
+  {% endif %}
+
+  {% assign title = title | append: page.title %}
+
+{% endif %}
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ "/css/site.css" }}">
+</head>
