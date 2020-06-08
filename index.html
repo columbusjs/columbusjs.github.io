@@ -11,10 +11,7 @@ title: Upcoming Events
 
 {% for post in currentAndFuturePosts %}
   {% assign postDate = post.date | date: '%Y-%m-%d' %}
-
   {% if postDate >= currentDate %}
-    <article data-post-date="{{ postDate }}">
-      {% include post-content.html %}
-    </article>
+    {% include article.html %}
   {% endif %}
 {% endfor %}
