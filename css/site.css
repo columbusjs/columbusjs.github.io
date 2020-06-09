@@ -1,35 +1,22 @@
 body {
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 145px auto 50px;
+  height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #222222;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 145px 1fr 1fr;
   margin: 0px;
   padding: 0px;
-}
-
-a {
-  text-decoration: none;
-  color: #00aaaa;
-}
-
-a:hover {
-  text-decoration: underline;
+  overflow: hidden;
 }
 
 header {
   text-align: left;
   grid-column: 1 / span 2;
-  grid-row: 1/1;
+  grid-row: 1 / span 1;
   z-index: 0;
   background-color: #1fa0a085;
-}
-
-header img {
-  padding: 25px;
-  height: 200px;
-  width: 200px;
 }
 
 aside {
@@ -38,9 +25,35 @@ aside {
   background-image: url('../images/sidebar-background.jpg');
   background-color: #222222;
   background-position: top center;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 25px;
   padding-top: 250px;
+}
+
+main {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+  padding: 20px;
+  padding-top: 140px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+footer {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 1;
+  z-index: 0;
+  background-color: #1fa0a085;
+  text-align: right;
+  padding-right: 20px;
+}
+
+
+header img {
+  padding: 25px;
+  height: 200px;
+  width: 200px;
 }
 
 aside p {
@@ -72,7 +85,7 @@ aside #social-links {
   text-align: center;
   list-style: none;
   padding: 0;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #social-links li {
@@ -85,11 +98,16 @@ aside #social-links {
   margin: 10px;
 }
 
-main {
-  grid-column: 2 / 2;
-  grid-row: 2 / 3;
-  padding: 50px;
+a {
+  text-decoration: none;
+  color: #00aaaa;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 
 /* header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
