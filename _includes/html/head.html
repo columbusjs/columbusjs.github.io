@@ -17,5 +17,14 @@
   <title>{{ title }}</title>
   <meta charset="utf-8">
   <meta name="description" content="{{ site.description }}">
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.setAttribute('style', `grid-template-rows: 145px ${window.innerHeight - 145 - 50}px 50px;`)
+    })
+
+    window.addEventListener('resize', () => {
+      document.body.setAttribute('style', `grid-template-rows: 145px ${window.innerHeight - 145 - 50}px 50px;`)
+    })
+  </script>
   <link rel="stylesheet" href="/css/site.css">
 </head>

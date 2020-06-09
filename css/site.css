@@ -1,7 +1,5 @@
 body {
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 145px auto 50px;
-  height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #222222;
@@ -49,6 +47,21 @@ footer {
   padding-right: 20px;
 }
 
+#social-links {
+  text-align: right;
+  list-style: none;
+  margin-top: 7px;
+}
+
+#social-links li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#social-links img {
+  height: 35px;
+  width: 35px;
+}
 
 header img {
   padding: 25px;
@@ -79,23 +92,6 @@ aside #cta li:last-child {
 
 aside #cta a {
   color: #7fffff;
-}
-
-aside #social-links {
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  padding-top: 50px;
-}
-
-#social-links li {
-  display: inline;
-}
-
-#social-links img {
-  height: 40px;
-  width: 40px;
-  margin: 10px;
 }
 
 a {
