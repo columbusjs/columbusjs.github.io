@@ -102,37 +102,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-
-
-/* header {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-  background-color: #00aaaa77;
-  margin-bottom: 75px;
-}
-
-header a {
-  color: #222222;
-}
-
-header nav {
-  margin-top: -175px;
-  margin-left: 200px;
-}
-
-header nav ul {
-  list-style-type: none;
-  display: block;
-  font-size: 30px;
-  padding-bottom: 15px;
-  text-align: right;
-}
-
-header nav ul li {
-  display: inline;
-  padding-right: 20px;
-}
-
+/*
 main>h1 {
   font-size: 30px;
   margin-bottom: 50px;
