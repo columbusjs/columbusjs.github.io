@@ -1,5 +1,5 @@
 ---
-date: 2014-08-20 18:30:00
+date: 2014-08-20 18:30:00 EDT
 layout: post
 title: "Dethroning Grunt: Simple and Effective Builds with Gulp"
 speaker: "Jay Harris"

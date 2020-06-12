@@ -1,5 +1,5 @@
 ---
-date: 2017-08-16 19:00:00
+date: 2017-08-16 19:00:00 EDT
 layout: post
 title: "How to Build the Virtual DOM"
 speaker: "Tommy Graves"

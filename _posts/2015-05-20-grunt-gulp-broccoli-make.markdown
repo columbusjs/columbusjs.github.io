@@ -1,5 +1,5 @@
 ---
-date: 2015-05-20 18:30:00
+date: 2015-05-20 18:30:00 EDT
 layout: post
 title: "Grunt, Gulp, Broccoli, Make, NewShinyBuilder... Who needs 'em!?"
 speaker: "Jason Karns"

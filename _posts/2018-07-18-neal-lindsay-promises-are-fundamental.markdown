@@ -1,5 +1,5 @@
 ---
-date: 2018-07-18 19:00:00
+date: 2018-07-18 19:00:00 EDT
 layout: post
 title: "Promises are <em>Fun</em>damental"
 speaker: "Neal Lindsay"

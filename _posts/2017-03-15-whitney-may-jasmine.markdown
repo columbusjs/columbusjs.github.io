@@ -1,5 +1,5 @@
 ---
-date: 2017-03-15 19:00:00
+date: 2017-03-15 19:00:00 EDT
 layout: post
 title: "Jasmine: Automate your JavaScript Testing"
 speaker: "Whitney May"

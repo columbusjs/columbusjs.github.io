@@ -1,5 +1,5 @@
 ---
-date: 2018-06-20 19:00:00
+date: 2018-06-20 19:00:00 EDT
 layout: post
 title: "React: Writing Clean, Readable, Front-End Applications"
 speaker: "Yasi Minachi"

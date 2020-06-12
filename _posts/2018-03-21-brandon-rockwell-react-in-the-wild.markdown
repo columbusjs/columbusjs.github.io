@@ -1,5 +1,5 @@
 ---
-date: 2018-03-21 19:00:00
+date: 2018-03-21 19:00:00 EDT
 layout: post
 title: "React in the Wild: Production Edition"
 speaker: "Brandon Rockwell"

@@ -1,5 +1,5 @@
 ---
-date: 2015-03-18 18:30:00
+date: 2015-03-18 18:30:00 EDT
 layout: post
 title: "Test Driving with Testem and Jasmine"
 speaker: "Guy Royse"

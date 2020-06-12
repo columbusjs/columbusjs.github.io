@@ -1,5 +1,5 @@
 ---
-date: 2018-02-21 19:00:00
+date: 2018-02-21 19:00:00 EDT
 layout: post
 title: "Machine Learning for Fun: Finding Bigfoot with the Nexosis API"
 speaker: "Guy Royse"

@@ -1,5 +1,5 @@
 ---
-date: 2019-10-16 19:00:00
+date: 2019-10-16 19:00:00 EDT
 layout: post
 title: "Poking Around with WebAssembly"
 speaker: "Guy Royse"

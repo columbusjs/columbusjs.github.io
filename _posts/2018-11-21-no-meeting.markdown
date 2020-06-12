@@ -1,5 +1,5 @@
 ---
-date: 2018-11-21 19:00:00
+date: 2018-11-21 19:00:00 EDT
 layout: post
 title: "No Meeting"
 emoji: 🚫

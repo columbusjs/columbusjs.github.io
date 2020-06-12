@@ -1,5 +1,5 @@
 ---
-date: 2020-02-12 19:00:00
+date: 2020-02-12 19:00:00 EDT
 layout: post
 title: "Metaprogramming in JavaScript"
 speaker: "Venkat Subramaniam"

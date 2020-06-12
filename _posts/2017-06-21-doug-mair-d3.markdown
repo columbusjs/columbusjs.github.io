@@ -1,5 +1,5 @@
 ---
-date: 2017-06-21 19:00:00
+date: 2017-06-21 19:00:00 EDT
 layout: post
 title: "Feed Your Inner Data Scientist: JavaScript tools for data visualization and filtering!"
 speaker: "Doug Mair"

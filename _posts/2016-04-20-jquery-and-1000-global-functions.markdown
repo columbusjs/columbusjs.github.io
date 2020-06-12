@@ -1,5 +1,5 @@
 ---
-date: 2016-04-20 19:00:00
+date: 2016-04-20 19:00:00 EDT
 layout: post
 title: "jQuery & 10,000 Global Functions: Working with Legacy JavaScript"
 speaker: "Guy Royse"

@@ -1,5 +1,5 @@
 ---
-date: 2018-04-18 19:00:00
+date: 2018-04-18 19:00:00 EDT
 layout: post
 title: "Up and Running Quickly With Vue.js"
 speaker: "Burton Smith"

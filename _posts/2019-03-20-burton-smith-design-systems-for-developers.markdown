@@ -1,5 +1,5 @@
 ---
-date: 2019-03-20 19:00:00
+date: 2019-03-20 19:00:00 EDT
 layout: post
 title: "Design Systems for Developers"
 speaker: "Burton Smith"

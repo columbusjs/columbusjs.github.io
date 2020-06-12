@@ -1,5 +1,5 @@
 ---
-date: 2018-01-17 19:00:00
+date: 2018-01-17 19:00:00 EDT
 layout: post
 title: "Chrome Developer Tools: Raiding the Armory"
 speaker: "Greg Malcolm"

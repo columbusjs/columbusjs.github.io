@@ -1,5 +1,5 @@
 ---
-date: 2019-02-20 19:00:00
+date: 2019-02-20 19:00:00 EDT
 layout: post
 title: "Writing simple Slack bots with Node.js"
 speaker: "Curtis Autery"

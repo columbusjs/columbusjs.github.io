@@ -1,5 +1,5 @@
 ---
-date: 2017-12-13 18:00:00
+date: 2017-12-13 18:00:00 EDT
 layout: post
 title: "Columbus Tech Community Holiday Celebration 2017"
 ---

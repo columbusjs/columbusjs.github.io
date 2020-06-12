@@ -1,5 +1,5 @@
 ---
-date: 2020-07-15 19:00:00
+date: 2020-07-15 19:00:00 EDT
 layout: post
 title: "Cypress - Where Automated Web UI Testing Isn’t Just for QA Anymore"
 speaker: "Justin James"

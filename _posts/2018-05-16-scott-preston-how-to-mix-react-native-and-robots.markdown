@@ -1,5 +1,5 @@
 ---
-date: 2018-05-16 19:00:00
+date: 2018-05-16 19:00:00 EDT
 layout: post
 title: "Robots Powered By React Native"
 speaker: "Scott Preston"

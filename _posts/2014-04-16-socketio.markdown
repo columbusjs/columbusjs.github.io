@@ -1,5 +1,5 @@
 ---
-date: 2014-04-16 18:30:00
+date: 2014-04-16 18:30:00 EDT
 layout: post
 title: "JavaScript for Fun and Sockets"
 speaker: "Jared Faris"

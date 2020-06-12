@@ -1,5 +1,5 @@
 ---
-date: 2014-06-18 18:30:00
+date: 2014-06-18 18:30:00 EDT
 layout: post
 title: "React.js and JavaScript Koans"
 speaker: "Kurt Mueller & Greg Malcolm"

@@ -1,5 +1,5 @@
 ---
-date: 2016-09-21 19:00:00
+date: 2016-09-21 19:00:00 EDT
 layout: post
 title: "Cooking with Gas"
 speaker: "Sean Dennison"

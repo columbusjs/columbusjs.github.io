@@ -1,5 +1,5 @@
 ---
-date: 2019-09-18 19:00:00
+date: 2019-09-18 19:00:00 EDT
 layout: post
 title: "Modules in JavaScript"
 speaker: "Jackie Gleason"

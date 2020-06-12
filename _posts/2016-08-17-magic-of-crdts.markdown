@@ -1,5 +1,5 @@
 ---
-date: 2016-08-17 19:00:00
+date: 2016-08-17 19:00:00 EDT
 layout: post
 title: "Merging Partitioned Data Without Conflicts (Ever!): The Magic of CRDTs"
 speaker: "R. J. Osborne"

@@ -1,5 +1,5 @@
 ---
-date: 2019-04-17 19:00:00
+date: 2019-04-17 19:00:00 EDT
 layout: post
 title: "Adding Voice to your JS apps"
 speaker: "Stuart Crane"

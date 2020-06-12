@@ -1,5 +1,5 @@
 ---
-date: 2015-04-15 18:30:00
+date: 2015-04-15 18:30:00 EDT
 layout: post
 title: "ECMAScript 6 Now!"
 speaker: "Abdul Habra"

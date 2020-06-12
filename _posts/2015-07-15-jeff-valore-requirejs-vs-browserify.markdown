@@ -1,5 +1,5 @@
 ---
-date: 2015-07-15 18:30:00
+date: 2015-07-15 18:30:00 EDT
 layout: post
 title: "JavaScript Modules - RequireJS vs Browserify"
 speaker: "Jeff Valore"

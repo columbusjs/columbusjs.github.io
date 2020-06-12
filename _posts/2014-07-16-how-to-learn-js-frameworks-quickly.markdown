@@ -1,5 +1,5 @@
 ---
-date: 2014-07-16 18:30:00
+date: 2014-07-16 18:30:00 EDT
 layout: post
 title: "How to Learn JavaScript Frameworks Quickly - AngularJS, Backbone, Ember and Prerender.io"
 speaker: "Craig McKeachie & Jan Milosh"

@@ -1,5 +1,5 @@
 ---
-date: 2017-07-19 19:00:00
+date: 2017-07-19 19:00:00 EDT
 layout: post
 title: "Event Sourcing in the Browser"
 speaker: "James Hines"

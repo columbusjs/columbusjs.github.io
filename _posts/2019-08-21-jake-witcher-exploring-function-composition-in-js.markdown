@@ -1,5 +1,5 @@
 ---
-date: 2019-08-21 19:00:00
+date: 2019-08-21 19:00:00 EDT
 layout: post
 title: "It’s Endomorphin' Time! Exploring Function Composition in JavaScript"
 speaker: "Jake Witcher"

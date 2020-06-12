@@ -1,5 +1,5 @@
 ---
-date: 2014-10-15 18:30:00
+date: 2014-10-15 18:30:00 EDT
 layout: post
 title: "Building Killer Javascript Apps With IBM Bluemix"
 speaker: "Ryan Baxter, Anton McConville, Nathan Vega"

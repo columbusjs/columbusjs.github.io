@@ -1,5 +1,5 @@
 ---
-date: 2016-06-15 19:00:00
+date: 2016-06-15 19:00:00 EDT
 layout: post
 title: "Hello JavaScript"
 speaker: "Scott Preston"

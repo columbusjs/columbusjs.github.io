@@ -1,5 +1,5 @@
 ---
-date: 2015-09-16 19:15:00
+date: 2015-09-16 19:15:00 EDT
 layout: post
 title: "The Edison"
 speaker: "Don Abney"

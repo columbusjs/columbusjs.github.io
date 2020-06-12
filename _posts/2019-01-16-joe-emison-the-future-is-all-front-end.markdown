@@ -1,5 +1,5 @@
 ---
-date: 2019-01-16 19:00:00
+date: 2019-01-16 19:00:00 EDT
 layout: post
 title: "The Future is All Front End"
 speaker: "Joe Emison"

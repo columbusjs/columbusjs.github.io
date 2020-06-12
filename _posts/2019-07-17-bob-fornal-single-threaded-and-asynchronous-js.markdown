@@ -1,5 +1,5 @@
 ---
-date: 2019-07-17 19:00:00
+date: 2019-07-17 19:00:00 EDT
 layout: post
 title: "Single-Threaded and Asynchronous JavaScript?"
 speaker: "Bob Fornal"

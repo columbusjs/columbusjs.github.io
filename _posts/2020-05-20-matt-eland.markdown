@@ -1,5 +1,5 @@
 ---
-date: 2020-05-20 19:00:00
+date: 2020-05-20 19:00:00 EDT
 layout: post
 title: "Building an Interactive Fiction Game in Modern JavaScript"
 speaker: "Matt Eland"

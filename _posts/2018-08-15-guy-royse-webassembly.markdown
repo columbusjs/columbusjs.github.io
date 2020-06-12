@@ -1,5 +1,5 @@
 ---
-date: 2018-08-15 19:00:00
+date: 2018-08-15 19:00:00 EDT
 layout: post
 title: "An Introduction to WebAssembly"
 speaker: "Guy Royse"

@@ -1,5 +1,5 @@
 ---
-date: 2014-03-19 18:30:00
+date: 2014-03-19 18:30:00 EDT
 layout: post
 title: "Meteor Hack Night"
 ---

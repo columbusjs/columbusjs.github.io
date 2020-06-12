@@ -1,5 +1,5 @@
 ---
-date: 2017-01-18 19:00:00
+date: 2017-01-18 19:00:00 EDT
 layout: post
 title: "AWS Lambda"
 speaker: "Guy Royse"

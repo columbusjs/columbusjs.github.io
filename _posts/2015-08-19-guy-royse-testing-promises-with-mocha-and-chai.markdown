@@ -1,5 +1,5 @@
 ---
-date: 2015-08-19 19:00:00
+date: 2015-08-19 19:00:00 EDT
 layout: post
 title: "Testing Promises with Mocha & Chai"
 speaker: "Guy Royse"

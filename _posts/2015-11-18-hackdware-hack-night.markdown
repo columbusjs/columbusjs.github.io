@@ -1,5 +1,5 @@
 ---
-date: 2015-11-18 19:00:00
+date: 2015-11-18 19:00:00 EDT
 layout: post
 title: "Hardware Hack Night"
 ---

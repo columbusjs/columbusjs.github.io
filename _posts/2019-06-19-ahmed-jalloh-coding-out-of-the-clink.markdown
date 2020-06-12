@@ -1,5 +1,5 @@
 ---
-date: 2019-06-19 19:20:00
+date: 2019-06-19 19:20:00 EDT
 layout: post
 title: "Coding Out of the Clink"
 speaker: "Ahmed Jalloh"

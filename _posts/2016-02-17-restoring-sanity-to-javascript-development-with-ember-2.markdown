@@ -1,5 +1,5 @@
 ---
-date: 2016-02-17 19:00:00
+date: 2016-02-17 19:00:00 EDT
 layout: post
 title: "Restoring Sanity to JavaScript Development with Ember 2"
 speaker: "Kevin Pfefferle"

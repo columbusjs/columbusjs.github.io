@@ -1,5 +1,5 @@
 ---
-date: 2016-10-19 19:00:00
+date: 2016-10-19 19:00:00 EDT
 layout: post
 title: "Riot.js"
 speaker: "Eric Butler"

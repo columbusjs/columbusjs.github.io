@@ -1,5 +1,5 @@
 ---
-date: 2018-10-17 19:00:00
+date: 2018-10-17 19:00:00 EDT
 layout: post
 title: "Halt and Catch Fire: Who really needs NoSQL?"
 speaker: "Matthew Groves"

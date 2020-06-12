@@ -1,5 +1,5 @@
 ---
-date: 2018-12-13 18:00:00
+date: 2018-12-13 18:00:00 EDT
 layout: post
 title: "Holiday Party!"
 emoji: 🎉

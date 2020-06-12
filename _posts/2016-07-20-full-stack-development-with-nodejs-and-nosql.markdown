@@ -1,5 +1,5 @@
 ---
-date: 2016-07-20 19:00:00
+date: 2016-07-20 19:00:00 EDT
 layout: post
 title: "Full Stack Development with Node.js and NoSQL"
 speaker: "Matthew Groves"

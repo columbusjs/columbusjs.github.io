@@ -1,5 +1,5 @@
 ---
-date: 2015-10-21 19:00:00
+date: 2015-10-21 19:00:00 EDT
 layout: post
 title: "Happier TDD with testdouble.js"
 speaker: "Justin Searls"

@@ -1,5 +1,5 @@
 ---
-date: 2020-08-19 19:00:00
+date: 2020-08-19 19:00:00 EDT
 layout: post
 title: "You Might Not Need Webpack"
 speaker: "Ryan Lanciaux"

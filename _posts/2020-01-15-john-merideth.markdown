@@ -1,5 +1,5 @@
 ---
-date: 2020-01-15 19:00:00
+date: 2020-01-15 19:00:00 EDT
 layout: post
 title: "Accessibility: what is it, why care about it, and how to do it"
 speaker: "John Merideth"

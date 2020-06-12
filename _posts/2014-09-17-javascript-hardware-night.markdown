@@ -1,5 +1,5 @@
 ---
-date: 2014-09-17 18:30:00
+date: 2014-09-17 18:30:00 EDT
 layout: post
 title: "JavaScript Hardware Night"
 ---

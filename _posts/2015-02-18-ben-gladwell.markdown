@@ -1,5 +1,5 @@
 ---
-date: 2015-02-18 18:30:00
+date: 2015-02-18 18:30:00 EDT
 layout: post
 title: "Gulp.js"
 speaker: "Ben Gladwell"

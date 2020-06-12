@@ -1,5 +1,5 @@
 ---
-date: 2017-11-15 19:00:00
+date: 2017-11-15 19:00:00 EDT
 layout: post
 title: "Deployed in 60 Seconds: Up and Running Quickly with the Angular CLI"
 speaker: "Stephen Cavaliere"

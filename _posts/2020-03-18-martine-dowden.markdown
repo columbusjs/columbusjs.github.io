@@ -1,5 +1,5 @@
 ---
-date: 2020-03-18 19:00:00
+date: 2020-03-18 19:00:00 EDT
 layout: post
 title: "Mastering Shadow Dom [ONLINE ONLY]"
 speaker: "Martine Dowden"
