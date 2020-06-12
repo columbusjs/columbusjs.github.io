@@ -121,17 +121,24 @@ body>footer {
 body>footer #social-links {
   text-align: right;
   list-style: none;
-  margin-top: 7px;
+  margin-top: 17px;
 }
 
 body>footer #social-links li {
   display: inline;
-  margin: 0 5px;
+  margin: 0px 5px;
 }
 
-body>footer #social-links img {
-  height: 35px;
-  width: 35px;
+body>footer #social-links li:before {
+  content: "\00BB   ";
+}
+
+body>footer #social-links li:first-child:before {
+  content: "";
+}
+
+body>footer #social-links a {
+  color: #222222;
 }
 
 a {
