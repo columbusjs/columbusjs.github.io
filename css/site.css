@@ -26,7 +26,7 @@ body>header img {
 body>aside {
   grid-column: 1 / 1;
   grid-row: 1 / span 3;
-  background-image: url('../images/sidebar-background.jpg');
+  background-image: url('/images/sidebar-background.jpg');
   background-color: #222222;
   background-position: top center;
   background-size: cover;
@@ -146,4 +146,69 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+
+  body {
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+
+  body>header {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  body>header img {
+    padding: 25px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  body>aside {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    padding-top: 100px;
+  }
+
+  body>main {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    overflow: visible;
+    padding-top: 20px;
+  }
+
+  body>main>header>h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  body>main img {
+    display: none;
+  }
+
+  body>main>article {
+    padding-bottom: 20px;
+  }
+
+  body>main>article>header>h1 {
+    text-align: left;
+    border-style: none;
+    padding-top: 0px;
+  }
+  
+  body>main>article>header>h2 {
+    text-align: left;
+  }
+
+  body>main>article>footer {
+    text-align: center;
+  }
+
+  body>footer {
+    display: none;
+  }
 }
