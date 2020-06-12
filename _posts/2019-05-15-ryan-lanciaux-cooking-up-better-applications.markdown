@@ -1,8 +1,9 @@
 ---
 date: 2019-05-15 19:00:00
 layout: post
-title: "🎤 Cooking Up Better Applications with Inspiration from the Culinary World"
+title: "Cooking Up Better Applications with Inspiration from the Culinary World"
 speaker: "Ryan Lanciaux"
+emoji: 🎤
 ---
 
 Software development is a relatively young field. What is considered “beautiful code” one day can be an anti-pattern the next. What if there was a way to write software that is easier to maintain, quicker to write, and more reusable by taking some timeless inspiration from the more established, culinary world?

@@ -1,8 +1,9 @@
 ---
 date: 2020-03-18 19:00:00
 layout: post
-title: "📽 Mastering Shadow Dom [ONLINE ONLY]"
+title: "Mastering Shadow Dom [ONLINE ONLY]"
 speaker: "Martine Dowden"
+emoji: 📽
 ---
 
 Want to create components that work regardless of the front-end framework you are using?

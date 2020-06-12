@@ -1,8 +1,9 @@
 ---
 date: 2020-04-15 19:00:00
 layout: post
-title: "🤷🏻‍♂️ Live Coding with Guy: RedisMUD"
+title: "Live Coding with Guy: RedisMUD"
 speaker: "Guy Royse"
+emoji: 🤷🏻‍♂️
 ---
 
 [Twitter has spoken](https://twitter.com/guyroyse/status/1244700396448296961) and a solid hour or BeardCam it is. However, it was a trick! Whenever I'm on camera, it's BeardCam!

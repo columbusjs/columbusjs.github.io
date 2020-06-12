@@ -1,8 +1,9 @@
 ---
 date: 2018-08-15 19:00:00
 layout: post
-title: "🎤 An Introduction to WebAssembly"
+title: "An Introduction to WebAssembly"
 speaker: "Guy Royse"
+emoji: 🎤
 ---
 
 Want to write a web application? Better get familiar with JavaScript! JavaScript has long been the king of front-end. While there have been various attempts to dethrone it, they have typically involved treating JavaScript as an assembly-language analog that you transpile your code to. This has lead to complex build pipelines that result in JavaScript which the browser has to parse and *you* still have to debug. But what if there were an actual byte-code language you could compile your non-JavaScript code to instead? That is what WebAssembly is.

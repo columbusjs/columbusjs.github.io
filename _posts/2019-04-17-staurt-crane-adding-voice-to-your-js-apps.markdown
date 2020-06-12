@@ -1,8 +1,9 @@
 ---
 date: 2019-04-17 19:00:00
 layout: post
-title: "🎤 Adding Voice to your JS apps"
+title: "Adding Voice to your JS apps"
 speaker: "Stuart Crane"
+emoji: 🎤
 ---
 
 Voice technology is exploding. Between Alexa, Google Assistant, Siri, and others, voice is the next big platform in computing. [Voice Metrics](https://www.voicemetrics.io/) is a Columbus-based companies that assists software developers to add voice into their apps – quickly and easily. Learn how to leverage voice in your apps, including code samples and architecture.

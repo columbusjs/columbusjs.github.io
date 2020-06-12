@@ -1,8 +1,9 @@
 ---
 date: 2018-10-17 19:00:00
 layout: post
-title: "🎤 Halt and Catch Fire: Who really needs NoSQL?"
+title: "Halt and Catch Fire: Who really needs NoSQL?"
 speaker: "Matthew Groves"
+emoji: 🎤
 ---
 
 This session will begin with a brief introduction to NoSQL. Relational databases have worked on past projects. Why change now? Is NoSQL just a buzzword with no real substance? What can it do that relational can’t? What about all those horror stories and memes?

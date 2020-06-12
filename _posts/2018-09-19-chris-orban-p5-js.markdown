@@ -1,8 +1,9 @@
 ---
 date: 2018-09-19 19:00:00
 layout: post
-title: "🎤 Creative Coding with p5.js and the STEMcoding Project"
+title: "Creative Coding with p5.js and the STEMcoding Project"
 speaker: "Chris Orban"
+emoji: 🎤
 ---
 
 The Processing Foundation is a group of arts educators that came together to make simple but powerful coding tools for making interactive art and 2D games with computers. Over the last few years, their efforts have focused on developing p5.js which is a versatile javascript library that has all the functionality of "Processing", but in a browser environment.

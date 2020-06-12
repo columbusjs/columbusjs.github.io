@@ -1,8 +1,9 @@
 ---
 date: 2020-02-12 19:00:00
 layout: post
-title: "🎤 Metaprogramming in JavaScript"
+title: "Metaprogramming in JavaScript"
 speaker: "Venkat Subramaniam"
+emoji: 🎤
 ---
 
 Tools, libraries, and frameworks that rely on modern JavaScript heavily make use of metaprogramming capabilities that is relatively new in the language. Much like Java, JavaScrip has a reflection API, but more important, it has the ability to both inject and synthesize methods and properties dynamically. In this presentation we will learn about the metaprogramming API, the benefits it provides, and how to do both method injection and method synthesis.
