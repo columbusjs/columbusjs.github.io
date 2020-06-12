@@ -4,11 +4,8 @@ layout: post
 title: "Building an Interactive Fiction Game in Modern JavaScript"
 speaker: "Matt Eland"
 emoji: 🧙‍♂️
+youtube: https://www.youtube.com/watch?v=LmecWct5_B8
 ---
-
-### [RSVP at Meetup](https://www.meetup.com/techlifecolumbus/events/hlrxxqybchbbc/) to join the converstation on Zoom
-
-### [Watch online](https://www.twitch.tv/ColumbusJS) at Twitch
 
 Ever look at modern gaming and think "Gee, I really wish modern games looked like text-based games from the 80's, but with a modern JavaScript front end"? If so, you have interesting hobbies.
 

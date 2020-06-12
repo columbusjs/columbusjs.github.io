@@ -3,25 +3,31 @@
 
 <article data-post-date="{{ postDate }}">
 
-  <h1>
-    {% if post.emoji %}{{ post.emoji }} {% endif %}
-    <span>{% if post.speaker %}{{ post.speaker }}: {% endif %}</span>
-    <a href="{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </h1>
+  <header>
+    <h1>
+      {% if post.emoji %}{{ post.emoji }} {% endif %}
+      <span>{% if post.speaker %}{{ post.speaker }}: {% endif %}</span>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+  
+    <h2>
+      {{ post.date | date: "%A, %B %e, %Y @ %l:%M %P %Z" }}
+    </h2>  
+  </header>
 
-  <h2>
-    {{ post.date | date: "%A, %B %e, %Y @ %l:%M %P %Z" }}
-  </h2>
+  <main>{{ post.content }}</main>
 
-  <h3>
-    {% if post.rsvp %}
-      <a href="{{ post.rsvp }}">RSVP</a> to join the conversation.
-    {% endif %}
-    <a href="{{ site.twitch }}">Watch live</a> on Twitch!
-  </h3>
-
-  {{ post.content }}
-
+  {% if post.rsvp or post.youtube %}
+    <footer>
+      {% if post.rsvp %}
+        <a href="{{ post.rsvp }}">RSVP</a> to join the conversation.
+      {% endif %}
+      {% if post.youtube %}
+        <a href="{{ post.youtube }}">Watch</a> it on YouTube.
+      {% endif %}
+    </footer>
+  {% endif %}
+  
 </article>

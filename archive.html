@@ -4,20 +4,21 @@ title: All Events
 permalink: /meetups/
 ---
 
-<h1>{{ page.title }}</h1>
+<header>
+  <h1>{{ page.title }}</h1>
+</header>
+
+
+{% assign pastPosts = site.posts %}
+{% assign currentDate = site.time | date: '%Y-%m-%d' %}
+
+{% for post in pastPosts %}
+  {% assign postDate = post.date | date: '%Y-%m-%d' %}
+  {% if postDate < currentDate %}
+    {% include article.html %}
+  {% endif %}
+{% endfor %}
+
 
 {% for post in site.posts %}
-<article>
-
-  <h1>
-    {% if post.emoji %}{{ post.emoji }} {% endif %}
-    <span>{% if post.speaker %}{{ post.speaker }}: {% endif %}</span>
-    <a href="{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </h1>
-  <h2>
-    {{ post.date | date: "%A, %B %e, %Y @ %l:%M %P %Z" }}
-  </h2>
-</article>
 {% endfor %}
