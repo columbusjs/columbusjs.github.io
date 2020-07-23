@@ -1,10 +1,10 @@
 ---
 date: 2020-09-16 19:00:00 EDT
 layout: post
-title: "Automated Testing All The Things with Cypress"
+title: "NgRx Best Practices for Enterprises"
 speaker: "Jordan Powell"
 emoji: 🗣
 rsvp: https://www.meetup.com/techlifecolumbus/events/hlrxxqybcmbvb/
 ---
 
-Thought automated testing was hard? It's not, it's easy, and I'm going to show you how! In this talk we'll investigate real life examples of how to write automated tests using Cypress. By the end, you'll walk away a little bit more scared and a lot more prepared with some great practices you can apply immediately to your own applications.
+Do the letters N - G - R -X make you sad or happy? In this talk we'll go over best practices you should be using when building enterprise angular applications with NgRx. These few tips will help you better organize and structure your applications and leverage NgRx to do all the heavy lifting in your apps. In the end I plan to turn your frown upside down.
