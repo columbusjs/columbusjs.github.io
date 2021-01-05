@@ -1,5 +1,5 @@
 ---
-date: 2020-11-18 19:00:00 EDT
+date: 2020-11-18 19:00:00 EST
 layout: post
 title: "Agile Testing Basics for Non-Testers"
 speaker: "Jenna Charlton"

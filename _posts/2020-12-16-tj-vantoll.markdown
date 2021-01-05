@@ -1,5 +1,5 @@
 ---
-date: 2020-12-16 19:00:00 EDT
+date: 2020-12-16 19:00:00 EST
 layout: post
 title: "What Web Developers Can Learn From Native Mobile Developers"
 speaker: "TJ VanToll"
