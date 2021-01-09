@@ -3,7 +3,7 @@ date: 2021-04-21 19:00:00 EDT
 layout: post
 title: "Typesetting in CSS: Using Typography to Enhance Your Design"
 speaker: "Martine Dowden"
-emoji: 🗣
+emoji: 𓁏
 rsvp: https://www.meetup.com/techlifecolumbus/events/hlrxxqyccgbcc
 ---
 
