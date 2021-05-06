@@ -1,0 +1,10 @@
+---
+date: 2021-06-16 19:00:00 EDT
+layout: post
+title: "Building CLI Tools With NodeJS"
+speaker: "Joel Lord"
+emoji: ⚛
+rsvp: https://www.meetup.com/techlifecolumbus/events/hlrxxqyccjbvb
+---
+
+Nobody questions building backends with Node.js anymore. It has proven itself and is widely accepted as an excellent platform for web servers. But have you ever thought of building CLI tools with Node.js? It turns out that Node.js is also great at that. Using just a few simple built-in modules, you can create powerful tools that can be used in terminals in all operating systems. In this talk, you'' will learn how to use those modules through practical code samples and demos.
