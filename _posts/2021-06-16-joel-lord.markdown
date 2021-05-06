@@ -3,7 +3,7 @@ date: 2021-06-16 19:00:00 EDT
 layout: post
 title: "Building CLI Tools With NodeJS"
 speaker: "Joel Lord"
-emoji: ⚛
+emoji: 💲
 rsvp: https://www.meetup.com/techlifecolumbus/events/hlrxxqyccjbvb
 ---
 
