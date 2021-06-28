@@ -21,14 +21,14 @@
 
   {% if post.rsvp or post.youtube %}
     <footer>
+      {% if post.zoom %}
+        <a href="{{ post.zoom }}">Join us</a> on Zoom.
+      {% endif %}
       {% if post.rsvp %}
-        <a href="{{ post.rsvp }}">RSVP</a> to join the conversation.
+        <a href="{{ post.rsvp }}">RSVP</a> on Meetup.
       {% endif %}
       {% if post.youtube %}
         <a href="{{ post.youtube }}">Watch</a> it on YouTube.
-      {% endif %}
-      {% if post.zoom %}
-        <a href="{{ post.zoom }}">Join us</a> on Zoom.
       {% endif %}
     </footer>
   {% endif %}
