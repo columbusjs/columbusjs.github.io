@@ -5,6 +5,7 @@ title: "Building Games with Kaboom.js!"
 speaker: "Simon Prickett"
 emoji: 💣
 rsvp: https://www.meetup.com/techlifecolumbus/events/279129794
+zoom: https://redislabs.zoom.us/j/94203309474?pwd=M0hVdGR0M1ltQkZFR2xCaVFhQWZWUT09
 ---
 
 Simon Prickett shows how to get started with Kaboom.js, a JavaScript library that makes building games in the browser fast and fun! We'll start simple and build up to an adventure type game with a Node.js backend and Redis data store.
