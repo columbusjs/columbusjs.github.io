@@ -10,7 +10,7 @@ zoom: https://redislabs.zoom.us/j/93014445168?pwd=RUZJVnM1VWlKbWxEOEkvc01qYURqdz
 
 Starting with a simple project design we will look at the various design considerations in several categories (initialization, components, services, event handling, build tooling, and testing) to compare and contrast the various strengths and weaknesses of Vanilla JavaScript, Angular, Vue, and React.
 
-## About Bob
+### About Bob
 
 [Bob Fornal](https://twitter.com/rfornal) is Senior Solutions Developer with Leading EDJE: Husband, father, and programmer. His focus is on front-end development including:
 
