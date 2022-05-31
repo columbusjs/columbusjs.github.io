@@ -1,5 +1,5 @@
 ---
-date: 2022-06-02 19:00:00 EDT
+date: 2022-06-01 19:00:00 EDT
 layout: post
 title: "Tracking Aircraft with Redis & Software-Defined Radio"
 speaker: "Guy Royse"
