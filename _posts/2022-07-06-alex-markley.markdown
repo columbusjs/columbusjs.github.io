@@ -5,6 +5,7 @@ title: "Serverless Server-Side JavaScript in AWS"
 speaker: "Alex Markley"
 emoji: 🎤
 rsvp: https://www.meetup.com/columbusjs/events/286354684/
+banner: /banners/2022-07-06-alex-markley.png
 ---
 
 Join us for a brief overview of the why and how of running your server side JavaScript in a serverless environment! We'll talk about AWS Fargate and AWS Lambda. And of course there will be demos!

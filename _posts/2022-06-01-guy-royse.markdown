@@ -5,6 +5,7 @@ title: "Tracking Aircraft with Redis & Software-Defined Radio"
 speaker: "Guy Royse"
 emoji: 🎤
 rsvp: https://www.meetup.com/columbusjs/events/285925977/
+banner: /banners/2022-06-01-guy-royse.png
 ---
 
 Aircraft are everywhere. Knowing exactly where is paramount as it’s considered bad form for two aircraft to be in the same place at the same time. To avoid this, aircraft worldwide constantly and publicly broadcast their location, heading, and all sorts of other data using a system called ADS-B or Automatic Dependent Surveillance Broadcast.

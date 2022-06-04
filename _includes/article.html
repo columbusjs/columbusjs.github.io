@@ -17,7 +17,12 @@
     </h2>  
   </header>
 
-  <main>{{ post.content }}</main>
+  <main>
+    {% if post.banner %}
+      <img src="{{ post.banner }}"/>
+    {% endif %}
+    {{ post.content }}
+  </main>
 
   {% if post.rsvp or post.youtube %}
     <footer>

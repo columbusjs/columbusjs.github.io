@@ -5,6 +5,7 @@ title: "Chopping the Monolith"
 speaker: "Nicolas Frankel"
 emoji: 🎤
 rsvp: https://www.meetup.com/columbusjs/events/285043401/
+banner: /banners/2022-05-04-nicholas-frankel.png
 ---
 
 Micro services are ubiquitous. However, most companies that implement micro services do not reap their full benefits - at best. At worst, it’s an epic failure.
