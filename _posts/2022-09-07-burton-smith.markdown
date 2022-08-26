@@ -1,5 +1,5 @@
 ---
-date: 2022-08-07 19:00:00 EDT
+date: 2022-09-07 19:00:00 EDT
 layout: post
 title: "Getting Started with Web Components"
 speaker: "Burton Smith"
