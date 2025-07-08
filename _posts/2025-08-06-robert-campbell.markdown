@@ -1,5 +1,5 @@
 ---
-date: 2022-08-06 18:00:00 EDT
+date: 2025-08-06 18:00:00 EDT
 layout: post
 title: "Polling / RTC"
 speaker: "Robert Campbell"

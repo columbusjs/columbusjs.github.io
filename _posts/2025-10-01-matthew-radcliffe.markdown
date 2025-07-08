@@ -1,5 +1,5 @@
 ---
-date: 2022-10-01 18:00:00 EDT
+date: 2025-10-01 18:00:00 EDT
 layout: post
 title: "Open Source & Intro to Hacktoberfest"
 speaker: "Matthew Radcliffe"
