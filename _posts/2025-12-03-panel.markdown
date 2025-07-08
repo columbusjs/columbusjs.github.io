@@ -1,0 +1,11 @@
+---
+date: 2022-12-03 18:00:00 EDT
+layout: post
+title: "Job Search & Career Management"
+speaker: "Panel"
+emoji: 🎤
+rsvp: https://www.meetup.com/columbusjs/events/308850267/
+---
+
+Let's get together and talk about Job Searching and Career Management. We may dig into some resumes, portfolios, and more.
+(title subject to change)
