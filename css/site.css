@@ -1,4 +1,8 @@
 body {
+  --background-color: #1fa0a085;
+  --bg-color: #1fa0a0;
+  --header-color: #999999;
+
   grid-template-columns: 1fr 2fr;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -77,21 +81,20 @@ body>main>header>h1 {
 }
 
 body>main>article {
-  padding-bottom: 50px;
+  margin-bottom: 3.5em;
 }
 
-body>main>article>header>h1 {
+body>main>article>header>h2 {
   font-size: 24px;
   margin: 0;
-  padding-top: 25px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 
 }
 
-body>main>article>header>h2 {
+body>main>article>header>h3 {
   font-size: 18px;
-  color: #999999;
+  color: var(--header-color);
   margin: 0;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -210,5 +213,63 @@ a:hover {
 
   body>footer {
     display: none;
+  }
+}
+
+article {
+  background-color: #00000033;
+  padding: 1em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.definition-header {
+  color: var(--header-color);
+  margin-bottom: 1em;
+}
+.definition {
+  color: var(--header-color);
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin-bottom: 0.75em;
+  padding-left: 1em;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+
+  tr {
+
+    &:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    &:hover {
+      background-color: #dddddd;
+    }
+
+    th:nth-of-type(1) {
+      width: 20%;
+    }
+    th:nth-of-type(2) {
+      width: 50%;
+    }
+    th:nth-of-type(3) {
+      width: 30%;
+    }
+
+    th {
+      padding-top: 0.75em;
+      padding-bottom: 0.75em;
+      text-align: left;
+      background-color: var(--bg-color);
+      color: white;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      padding: 0.5em;
+    }
   }
 }
