@@ -276,3 +276,11 @@ article {
     }
   }
 }
+
+.event-article {
+  --header-color: #ffffff;
+  --link-color-dark: #ef4d24;
+
+  color: #ffffff;
+  background-color: #00000099;
+}

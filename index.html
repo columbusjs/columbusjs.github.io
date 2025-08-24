@@ -12,7 +12,11 @@ title: Upcoming Events
 
 {% for post in currentAndFuturePosts %}
   {% assign postDate = post.date | date: '%Y-%m-%d' %}
-  {% if postDate >= currentDate %}
+  {% assign postType = post.layout %}
+
+  {% if postDate >= currentDate and postType == "post" %}
     {% include article.html %}
+  {% elsif postDate >= currentDate %}
+    {% include event-article.html %}
   {% endif %}
 {% endfor %}
