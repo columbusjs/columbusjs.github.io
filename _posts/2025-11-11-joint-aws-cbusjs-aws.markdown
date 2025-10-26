@@ -1,5 +1,5 @@
 ---
-date: 2025-10-11 18:00:00 EDT
+date: 2025-11-11 18:00:00 EDT
 layout: event
 title: "Joint Event: AWS Cbus & ColumbusJS"
 rsvp: https://www.meetup.com/columbusjs/events/310613139/
