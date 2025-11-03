@@ -1,5 +1,5 @@
 ---
-date: 2025-11-13 18:00:00 EDT
+date: 2025-11-13 18:00:00 EST
 layout: event
 title: "Joint Event: BrowserStack & COSQAM"
 speaker: "Jenna Charleton"

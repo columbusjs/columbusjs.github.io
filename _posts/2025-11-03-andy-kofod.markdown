@@ -1,5 +1,5 @@
 ---
-date: 2025-11-03 18:00:00 EDT
+date: 2025-11-03 18:00:00 EST
 layout: post
 title: "Beyond the Click: The Psychology Behind User Behavior"
 speaker: "Andy Kofod"

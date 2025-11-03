@@ -1,5 +1,5 @@
 ---
-date: 2025-12-03 19:00:00 EDT
+date: 2025-12-03 18:00:00 EST
 layout: post
 title: "Job Search & Career Management"
 speaker: "Panel"
