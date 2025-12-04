@@ -1,5 +1,5 @@
 ---
-date: 2026-02-04 18:00:00 EST
+date: 2026-03-04 18:00:00 EST
 layout: post
 title: "Job Search & Career Management Tooling"
 speaker: "Workshop"
