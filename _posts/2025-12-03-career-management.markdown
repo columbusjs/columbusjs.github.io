@@ -2,7 +2,7 @@
 date: 2025-12-03 18:00:00 EST
 layout: post
 title: "Job Search & Career Management"
-speaker: "Panel"
+speaker: "Bob Fornal"
 emoji: 🎤
 rsvp: https://www.meetup.com/columbusjs/events/308850267/
 ---
