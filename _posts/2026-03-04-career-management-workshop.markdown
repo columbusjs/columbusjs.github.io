@@ -7,10 +7,12 @@ emoji: 🎤
 rsvp: https://www.meetup.com/columbusjs/events/312298281/
 ---
 
+[There will be one surprise activity at this event - I will update the description as I am allowed]
+
 Let's get together and WORKSHOP about Job Searching and Career Management. Here are some of the content areas we can cover - expect this to change.
 
-Using AI effectively (search, resume).
-Job Search Tooling (i.e. TopResume, Job-Squid).
-Resume / LinkedIn Review
-Practice Interview
-Practice Elevator Pitch
+* Using AI effectively (search, resume).
+* Job Search Tooling (i.e. TopResume, Job-Squid).
+* Resume / LinkedIn Review
+* Practice Interview
+* Practice Elevator Pitch

@@ -15,10 +15,10 @@ Tailwind gives you a well-organized, utility-first approach to styling. This CSS
 
 In this talk, I’ll walk through an interactive demo of Tailwind CSS and cover the following topics:
 
-Set up Tailwind CSS in your project
-Understand Tailwind’s utility classes and how they work
-Integrate breakpoints and dark mode like a pro
-Customizing Tailwind to fit your style
-Ditch your spaghetti stylesheets and come see how Tailwind CSS can make your project lighter, cleaner, and a lot more fun to build. Your future self will thank you.
+* Set up Tailwind CSS in your project
+* Understand Tailwind’s utility classes and how they work
+* Integrate breakpoints and dark mode like a pro
+* Customizing Tailwind to fit your style
+* Ditch your spaghetti stylesheets and come see how Tailwind CSS can make your project lighter, cleaner, and a lot more fun to build. Your future self will thank you.
 
 Bring your laptop and expect to write some (non-AI generated) code!
