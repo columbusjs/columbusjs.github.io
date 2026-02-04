@@ -1,0 +1,21 @@
+---
+date: 2026-02-04 18:00:00 EST
+layout: post
+title: "GIS and Software Programming"
+speaker: "Gary Yu"
+emoji: 🎤
+rsvp: https://www.meetup.com/columbusjs/events/311380534/
+---
+
+GIS and Software Programming (with a focus on Python and JavaScript)
+
+* GIS Overview
+* Programming Overview
+* GIS History
+* History of Programming
+* A Cluster of GIS Software
+* A Tale of Two Programming Languages (Python and JavaScript)
+* How to integrate GIS Software in Python
+* How to integrate GIS Software in JS
+
+Bring your laptop and expect to write some (non-AI generated) code!
