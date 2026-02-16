@@ -1,0 +1,20 @@
+---
+date: 2026-08-05 18:00:00 EST
+layout: post
+title: "Agents & Arbiters - An Adventurer's Guide to Multi-Agent Collaboration with LangGraph.js"
+speaker: "Guy Royse"
+emoji: 🎤
+rsvp: https://www.meetup.com/columbusjs/events/313388592/
+---
+
+Guy Royse will be presenting "Agents & Arbiters - An Adventurer's Guide to Multi-Agent Collaboration with LangGraph.js"
+
+Building interactive systems with conventional coding means anticipating every possible user action and writing the right response for each. This quickly becomes nigh impossible. You end up lost in a maze of recursion, fragility, and nested if statements. The more interactive you make your system, the more complex your code gets, until debugging feels like being eaten by a grue—you know something's wrong, but you're just fumbling around in the dark.
+
+There's a better way. Instead of scripting every interaction, we can give some of the elements in our system their own intelligence. Multi-agent collaboration enables us to create systems in which entities can become autonomous agents with their own perspectives and voices. Imagine a text-based adventure game where the brass lantern, the white house, and even the mailbox have something to say when the player responds. Or consider a help desk system where agents from billing, technical support, and account management each weigh in to determine the best solution for a customer.
+
+In this session, we'll explore multi-agent collaboration through a live demo of a text-based adventure system. You'll meet the orchestration workflow—router, classifier, agents, arbiter, and committer—and discover how LangGraph.js coordinates the chaos when multiple agents want to respond. We'll shine our brass lantern over the code to see how it uses Redis and LangGraph.js to make it all work. Then, we'll explore how this same approach solves real-world problems beyond gaming.
+
+When the adventure's over, you'll understand how to coordinate agents to handle complex interactions and know when this is a good approach. You'll have a working example you can adapt for your own adventures—be they exploring the Great Underground Empire, customer service platforms, or content management systems. And, you'll never look at building interactive systems the same way again.
+
+Bring your laptop and expect to write some (non-AI-generated) code!

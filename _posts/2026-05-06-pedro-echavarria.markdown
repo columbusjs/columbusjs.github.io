@@ -15,4 +15,4 @@ Through practical examples, the session demonstrates how hooks simplify componen
 
 The talk also covers best practices, common pitfalls, and performance considerations to help developers write clean, maintainable, and efficient React applications using hooks.
 
-Bring your laptop and expect to write some (non-AI generated) code!
+Bring your laptop and expect to write some (non-AI-generated) code!
