@@ -1,5 +1,5 @@
 ---
-date: 2026-04-01 18:00:00 EST
+date: 2026-06-03 18:00:00 EST
 layout: post
 title: "Tailwind CSS: The Perfect Wingman for Frontend Projects"
 speaker: "Nathan Leiberman"
@@ -21,4 +21,4 @@ In this talk, I’ll walk through an interactive demo of Tailwind CSS and cover 
 * Customizing Tailwind to fit your style
 * Ditch your spaghetti stylesheets and come see how Tailwind CSS can make your project lighter, cleaner, and a lot more fun to build. Your future self will thank you.
 
-Bring your laptop and expect to write some (non-AI generated) code!
+Bring your laptop and expect to write some (non-AI-generated) code!

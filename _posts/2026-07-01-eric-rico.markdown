@@ -1,0 +1,14 @@
+---
+date: 2026-07-01 18:00:00 EST
+layout: post
+title: "Unity3D: TBD"
+speaker: "Eric Rico"
+emoji: 🎤
+rsvp: https://www.meetup.com/columbusjs/events/313386504/
+---
+
+Join us for Eric Rico's talk ...
+
+TBD
+
+Bring your laptop and expect to write some (non-AI-generated) code!
