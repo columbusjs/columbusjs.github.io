@@ -1,5 +1,5 @@
 ---
-date: 2026-04-01 18:00:00 EST
+date: 2026-04-01 17:00:00 EST
 layout: post
 title: "GitHub Copilot Dev Days | Columbus"
 speaker: "TBD"
