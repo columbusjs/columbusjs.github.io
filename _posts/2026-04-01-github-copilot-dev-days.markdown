@@ -13,10 +13,10 @@ Let's come together as developers, grow our local community, and showcase the po
 
 GitHub Copilot in VS Code
 GitHub Copilot CLI
-… and more!
+... and more!
 
-Intro Talk (30–45 min): GitHub Copilot + AI development
-Local Community Talk (30–45 min): Me (Bob Fornal)
-Hands‑on Workshop (1 hour): Practical exercises using GitHub Copilot
+* Intro Talk (30–45 min): GitHub Copilot + AI development
+* Local Community Talk (30–45 min): Me (Bob Fornal)
+* Hands‑on Workshop (1 hour): Practical exercises using GitHub Copilot
 
 Bring your laptop and expect to write some (non-AI-generated) code!
