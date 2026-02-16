@@ -1,5 +1,5 @@
 ---
-date: 2026-05-06 18:00:00 EST
+date: 2026-05-06 17:00:00 EST
 layout: post
 title: "Getting Hooked on React Hooks"
 speaker: "Pedro Echavarria"

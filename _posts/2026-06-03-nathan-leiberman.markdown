@@ -1,5 +1,5 @@
 ---
-date: 2026-06-03 18:00:00 EST
+date: 2026-06-03 17:00:00 EST
 layout: post
 title: "Tailwind CSS: The Perfect Wingman for Frontend Projects"
 speaker: "Nathan Leiberman"
