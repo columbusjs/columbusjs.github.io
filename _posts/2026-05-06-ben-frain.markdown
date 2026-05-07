@@ -1,0 +1,14 @@
+---
+date: 2026-06-03 17:00:00 EST
+layout: post
+title: "Top 10 CSS Tips To Make Your Dev Life Easier"
+speaker: "Ben Frain"
+emoji: 🎤
+rsvp: https://www.meetup.com/columbusjs/events/314046713/
+---
+
+Join us for Ben Frain's talk ...
+
+Ben's book "Responsive Web Design With HTML5 and CSS" caught my attention (and should interest you as well). Find it here: https://rwd.education/
+
+Bring your laptop and expect to write some (non-AI-generated) code!
