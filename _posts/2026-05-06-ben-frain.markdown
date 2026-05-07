@@ -1,5 +1,5 @@
 ---
-date: 2026-06-03 17:00:00 EST
+date: 2026-05-07 17:00:00 EST
 layout: post
 title: "Top 10 CSS Tips To Make Your Dev Life Easier"
 speaker: "Ben Frain"
