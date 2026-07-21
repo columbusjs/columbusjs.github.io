@@ -14,4 +14,3 @@ Let's get together and WORKSHOP about Job Searching and Career Management. Here 
 * Resume / LinkedIn Review
 * Practice Interview
 * Practice Elevator Pitch
-
